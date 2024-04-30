@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import header from '../assets/header.png'
-import dots from '../assets/dottedline.png'
+
 function Products() {
   return (
     <>
@@ -9,7 +9,7 @@ function Products() {
         <div className='w-full flex justify-between max-sm:flex-col max-sm:items-center'>
           <div className=' flex flex-col items-center ml-[200px] mt-[20px] max-xl:ml-[150px] max-lg:ml-[80px] max-sm:ml-[0px]'>
             <h1 className='font-bold text-[55px] font-serif tracking-wide max-xl:text-[50px] max-lg:text-[45px] max-md:text-[40px] max-sm:text-[30px] '>Our Products</h1>
-            <Image src={header} className='w-[320px] max-xl:w-[280px] max-lg:w-[250px] max-md:w-[200px] max-sm:w-[150px]' />
+            <Image src={header} className='w-[320px] max-xl:w-[280px] max-lg:w-[250px] max-md:w-[200px] max-sm:w-[150px]' alt='headers'/>
           </div>
           <button className='mt-[50px] max-sm:mt-[15px] mr-[200px] max-xl:mr-[150px] max-lg:mr-[80px] max-sm:mr-[0px] max-lg:w-[120px] max-sm:w-[100px] max-lg:h-[50px] max-sm:h-[30px] max-sm:text-[13px] bg-[#5B422E] rounded-lg w-[155px] h-[60px] text-[#fff] text-[16px]'>Explore More</button>
         </div>

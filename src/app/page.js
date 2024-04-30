@@ -1,5 +1,4 @@
-import Head from "next/head";
-import View from "../components/View";
+
 import Header from "@/components/Header";
 import About from "@/components/About";
 import ExploreCafe from "@/components/ExploreCafe";
