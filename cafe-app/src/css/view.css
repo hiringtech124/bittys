@@ -1,0 +1,60 @@
+
+
+
+
+
+
+/* THIRD slide */
+.chefS{
+    background-image: url(../assets/hydBiryani.png);
+    
+}
+.italian{
+    background-image: url(../assets/italianDish.png);
+}
+.baverage{
+    background-image: url(../assets/baverage.png);
+    
+}
+.sIndian{
+    background-image: url(../assets/masalDosa.png);
+}
+.chefS, .italian, .baverage, .sIndian {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+.chefS::before, .italian::before, .baverage::before, .sIndian::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+/* Fourth slide */
+
+.backImg{
+    background-image: url(../assets/fourthslide.png);
+    background-size: cover;
+}
+/* sixth slide */
+.sixthslide{
+    background-image: url(../assets/sixthslide.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+.sixthslide::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+    
+}
