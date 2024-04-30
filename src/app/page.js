@@ -8,7 +8,9 @@ import Visitus from "@/components/Visitus";
 import Contact from "@/components/Contact"; 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
+    // <main className="overflow-x-hidden">
+    <>
+  
       <Header/>
       <About/>
       <ExploreCafe/>
@@ -16,6 +18,7 @@ export default function Home() {
       <Blog/>
       <Visitus/>
       <Contact/>
-    </main>
+      </>
+    // </main>
   );
 }
