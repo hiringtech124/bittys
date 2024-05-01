@@ -1,24 +1,21 @@
-import React from "react";
-import Header from "@/components/Header";
-import About from "@/components/About";
-import ExploreCafe from "@/components/ExploreCafe";
-import Products from "@/components/Products";
-import Blog from "@/components/Blog";
-import Visitus from "@/components/Visitus";
-import Contact from "@/components/Contact";
 
-const Home = () => {
+import Header from "@/components/Header/Header";
+import About from "@/components/About/About";
+import ExploreCafe from "@/components/OurCafe/ExploreCafe";
+import Products from "@/components/OurProducts/Products";
+import Blog from "@/components/Blogs/Blog";
+import Visitus from "@/components/Visit/Visitus";
+import Contact from "@/components/Contact/Contact"; 
+export default function Home() {
   return (
-    <>
-      <Header />
-      <About />
-      <ExploreCafe />
-      <Products />
-      <Blog />
-      <Visitus />
-      <Contact />
-    </>
+    <main className="overflow-x-hidden">
+      <Header/>
+      <About/>
+      <ExploreCafe/>
+      <Products/>
+      <Blog/>
+      <Visitus/>
+      <Contact/>
+    </main>
   );
-};
-
-export default Home;
+}

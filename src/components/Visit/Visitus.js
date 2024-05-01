@@ -1,5 +1,5 @@
 import React from 'react'
-import "../css/view.css"
+import "./css/visit.css"
 function Visitus() {
   return (
     <>
