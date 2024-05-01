@@ -5,7 +5,7 @@ import "./css/explore.css"
 function ExploreCafe() {
   return (
     <>
-      <div className='h-screen max-lg:h-full w-full bg-yellow-200 bg-opacity-40'>
+      <div className='h-screen max-lg:h-full w-full bg-yellow-200 bg-opacity-40 max-sm:flex max-sm:flex-col max-sm:items-center'>
 
 
 
