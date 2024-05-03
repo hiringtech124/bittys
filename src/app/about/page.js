@@ -5,7 +5,7 @@ import Slidetwo from '@/components/About/Slidetwo/Slidetwo';
 import Slidethree from '@/components/About/Slidethree/Slidethree';
 import Slidefour from '@/components/About/Slidefour/Slidefour';
 import Review from '@/components/About/Review/Review';
-import Contact from '@/components/Home/Contact/Contact';
+
 export default function Home() {
     return (
       <>
@@ -15,7 +15,7 @@ export default function Home() {
         <Slidefour/>
         {/* <OurTeam/>
         <Review/> */}
-        <Contact/>
+        
       </>
     );
   }

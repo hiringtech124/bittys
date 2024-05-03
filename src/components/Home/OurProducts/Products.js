@@ -6,7 +6,7 @@ import './css/product.css'
 function Products() {
   return (
     <>
-      <div className='backImg h-full w-full flex flex-col items-center max-md:h-full'>
+      <div className='backImgp h-full w-full flex flex-col items-center max-md:h-full'>
         <div className='w-full flex justify-between max-sm:flex-col max-sm:items-center'>
           <div className=' flex flex-col items-center ml-[200px] mt-[20px] max-xl:ml-[150px] max-lg:ml-[80px] max-sm:ml-[0px]'>
             <h1 className='font-bold text-[50px] font-serif tracking-wide max-xl:text-[45px] max-lg:text-[40px] max-md:text-[35px] max-sm:text-[30px] '>Our Products</h1>

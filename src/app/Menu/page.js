@@ -4,7 +4,7 @@ import Header from '@/components/Menu/Header/Header'
 import OurSpecial from '@/components/Menu/OurSpecial/OurSpecial'
 import WeServe from '@/components/Menu/WeServe/WeServe'
 import Visitus from '@/components/Home/Visit/Visitus'
-import Contact from '@/components/Home/Contact/Contact'
+
 
 export default function Home() {
     return (
@@ -14,7 +14,7 @@ export default function Home() {
         <WeServe/>
         <OurSpecial/>
         <Visitus/>
-        <Contact/>
+        
       </>
     );
   }

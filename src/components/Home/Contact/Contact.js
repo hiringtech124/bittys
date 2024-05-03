@@ -5,7 +5,7 @@ function Contact() {
     <>
       <div className='bg-[#F9EDE1] bg-cover w-full h-[439px] flex items-center justify-center relative max-md:h-[500px]'>
         <div className=' flex w-full  justify-between max-md:flex-col max-md:items-center'>
-          <div className='w-[700px] h-[150px] ml-[100px] mt-[100px] max-xl:w-[500px] max-lg:mt-[50px] max-lg:ml-[50px] max-md:mt-[0px] max-sm:w-full'>
+          <div className='w-[700px] h-[150px] ml-[100px] mt-[100px] max-xl:w-[500px] max-lg:mt-[50px] max-lg:ml-[50px] max-sm:ml-[10px] max-md:mt-[0px] max-sm:w-[280px]'>
             <h1 className='font-serif font-bold text-[30px] pb-2 max-sm:w-[200px] '>News Letter</h1>
             <div className='pb-5'>
               <input type="text" placeholder="Email" className=" w-[460px] max-sm:w-[150px] max-xl:w-[250px] bg-[#F9EDE1] border border-gray-300 rounded-md px-4 py-2 mr-2" />
@@ -32,8 +32,8 @@ function Contact() {
 
 
         </div>
-        <div className='absolute bottom-[0px]'>
-          <div className='border-t-2 border-gray-400 h-[10px] w-screen'></div>
+        <div className='absolute bottom-[0px] w-full'>
+          <div className='border-t-2 border-gray-400 h-[10px] w-full'></div>
           <div className='h-[70px] flex justify-center items-center'>
             <p className='font-bold text-[20px] max-md:text-[18px] max-sm:text-[14px]'>Copyright ©2024 . All rights reserved.</p>
           </div>

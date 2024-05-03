@@ -3,22 +3,13 @@ import Image from 'next/image';
 import vegb from './assets/vegBiryani.png';
 import header from './assets/header.png'
 
-import Link from 'next/link';
+
 function Header() {
     return (
         <>
             <div className='h-full w-full bg-yellow-200 bg-opacity-40 flex flex-col  '>
 
-                <div className='max-md:hidden w-full flex justify-end mt-[60px] pr-[100px] '>
-                    
-                    <ul className='w-[600px] flex justify-between max-lg:w-[450px] max-md:w-[350px]'>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Home">Home</Link></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Menu">Menu</Link></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/ourCafe">Our Cafe</Link></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Home">Blog</Link></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/about">About Us</Link></li>
-                    </ul>
-                </div>
+                
                 <div className='flex justify-between max-sm:flex-col max-sm:items-center pb-[125px] max-md:pb-[50px]'>
                     <div className='flex flex-col justify-start ml-[150px] max-xl:ml-[100px] max-xl:ml-[60px] mt-[100px] max-sm:ml-[0px] max-sm:mt-[50px]   max-sm:items-center max-md:ml-[50px]'>
                         <Image src={header} className=' max-sm:w-[200px] max-xl:w-[300px] max-lg:w-[200px] max-md:w-[150px] max-sm:w-[100px] max-sm:mb-[10px]' alt='header' />
