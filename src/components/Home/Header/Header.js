@@ -2,17 +2,21 @@ import React from 'react'
 import Image from 'next/image';
 import vegb from './assets/vegBiryani.png';
 import header from './assets/header.png'
+
+import Link from 'next/link';
 function Header() {
     return (
         <>
             <div className='h-full w-full bg-yellow-200 bg-opacity-40 flex flex-col  '>
+
                 <div className='max-md:hidden w-full flex justify-end mt-[60px] pr-[100px] '>
+                    
                     <ul className='w-[600px] flex justify-between max-lg:w-[450px] max-md:w-[350px]'>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><a>Home</a></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><a>Menu</a></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><a>Our Cafe</a></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><a>Blog</a></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><a>About Us</a></li>
+                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Home">Home</Link></li>
+                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Menu">Menu</Link></li>
+                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Home">Our Cafe</Link></li>
+                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Home">Blog</Link></li>
+                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/about">About Us</Link></li>
                     </ul>
                 </div>
                 <div className='flex justify-between max-sm:flex-col max-sm:items-center pb-[125px] max-md:pb-[50px]'>
