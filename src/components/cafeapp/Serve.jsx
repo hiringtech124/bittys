@@ -22,7 +22,7 @@ const Serve = () => {
       <div className='weserver '>
         <div className='max-w-5xl mx-auto flex justify-center items-center flex-col'>
           <div className='flexxx'>
-            <Image src={img} />
+            <Image src={img} alt='afdadf'/>
             <h1 className='text-[100px] text-[#2B231D]'>We Serve</h1>
           </div>
 
@@ -34,7 +34,7 @@ const Serve = () => {
           <div className='cards flex flex-wrap justify-center items-center gap-20 mt-10'>
             <div className='cardone flex gap-4 w-[405px] max-md:w-full'>
               <div className='imgs'>
-                <Image src={imgg} />
+                <Image src={imgg} alt='afsdsd' />
               </div>
               <div className='flex flex-col gap2'>
                 <h4 className='text-[20px] text-[#000] font-playfair font-extrabold'>
@@ -48,7 +48,7 @@ const Serve = () => {
             </div>
             <div className='cardone flex gap-4 w-[405px] max-md:w-full'>
               <div className='imgs'>
-                <Image src={imgg1} />
+                <Image src={imgg1} alt='dsdfgdfa' />
               </div>
               <div className='flex flex-col gap2'>
                 <h4 className='text-[20px] text-[#000] font-playfair font-extrabold'>
@@ -62,7 +62,7 @@ const Serve = () => {
             </div>
             <div className='cardone flex gap-4 w-[405px] max-md:w-full'>
               <div className='imgs'>
-                <Image src={imgg2} />
+                <Image src={imgg2}  alt='sdsfgsfg'/>
               </div>
               <div className='flex flex-col gap2'>
                 <h4 className='text-[20px] text-[#000] font-playfair font-extrabold'>
@@ -76,7 +76,7 @@ const Serve = () => {
             </div>
             <div className='cardone flex gap-4 w-[405px] max-md:w-full'>
               <div className='imgs'>
-                <Image src={imgg3} />
+                <Image src={imgg3} alt='dfsgs' />
               </div>
               <div className='flex flex-col gap2'>
                 <h4 className='text-[20px] text-[#000] font-playfair font-extrabold'>
@@ -90,7 +90,7 @@ const Serve = () => {
             </div>
             <div className='cardone flex gap-4 w-[405px] max-md:w-full'>
               <div className='imgs'>
-                <Image src={imgg4} />
+                <Image src={imgg4} alt='fsfsd' />
               </div>
               <div className='flex flex-col gap2'>
                 <h4 className='text-[20px] text-[#000] font-playfair font-extrabold'>
@@ -104,7 +104,7 @@ const Serve = () => {
             </div>
             <div className='cardone flex gap-4 w-[405px] max-md:w-full'>
               <div className='imgs'>
-                <Image src={imgg5} />
+                <Image src={imgg5} alt='sdsfgsf' />
               </div>
               <div className='flex flex-col gap2'>
                 <h4 className='text-[20px] text-[#000] font-playfair font-extrabold'>
@@ -118,7 +118,7 @@ const Serve = () => {
             </div>
             <div className='cardone flex gap-4 w-[405px] max-md:w-full'>
               <div className='imgs'>
-                <Image src={imgg6} />
+                <Image src={imgg6} alt='sdfgsg'/>
               </div>
               <div className='flex flex-col gap2'>
                 <h4 className='text-[20px] text-[#000] font-playfair font-extrabold'>
@@ -132,7 +132,7 @@ const Serve = () => {
             </div>
             <div className='cardone flex gap-4 w-[405px] max-md:w-full'>
               <div className='imgs'>
-                <Image src={imgg7} />
+                <Image src={imgg7} alt='dfadfs'/>
               </div>
               <div className='flex flex-col gap2'>
                 <h4 className='text-[20px] text-[#000] font-playfair font-extrabold'>

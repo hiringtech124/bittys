@@ -12,7 +12,7 @@ const Cafeher = () => {
             <div className='absolute left-20 '>
               <Image src={omg} alt='j' />
             </div>
-            <Image src={img} />
+            <Image src={img} alt='sdd' />
             <h1 className='text-[#2B231D] text-[100px]'>Our Cafe</h1>
             <p className='text-[#1E1E1E] text-center'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus

@@ -13,8 +13,8 @@ export default function Home() {
         <Slidetwo/>
         <Slidethree/>
         <Slidefour/>
-        {/* <OurTeam/>
-        <Review/> */}
+        <OurTeam/>
+        <Review/>
         
       </>
     );
