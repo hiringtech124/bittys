@@ -14,7 +14,7 @@ function Header() {
                     <ul className='w-[600px] flex justify-between max-lg:w-[450px] max-md:w-[350px]'>
                         <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Home">Home</Link></li>
                         <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Menu">Menu</Link></li>
-                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Home">Our Cafe</Link></li>
+                        <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/ourCafe">Our Cafe</Link></li>
                         <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/Home">Blog</Link></li>
                         <li className='text-[22px] tracking-wide font-bold rounded-all hover:bg-brown-700'><Link href="/about">About Us</Link></li>
                     </ul>
