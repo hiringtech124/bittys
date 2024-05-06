@@ -1,38 +1,36 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Contact() {
   return (
     <>
-      <div className='bg-[#F9EDE1] bg-cover w-full h-[439px] flex items-center justify-center relative max-md:h-[500px]'>
-        <div className=' flex w-full  justify-between max-md:flex-col max-md:items-center'>
-          <div className='w-[700px] h-[150px] ml-[100px] mt-[100px] max-xl:w-[500px] max-lg:mt-[50px] max-lg:ml-[50px] max-sm:ml-[10px] max-md:mt-[0px] max-sm:w-[280px]'>
+      <div className='bg-[#F9EDE1] bg-cover w-full flex flex-col items-center justify-center'>
+        <div className='w-full flex justify-between max-md:flex-wrap px-[100px] max-xl:px-[60px] max-lg:px-[40px] max-sm:px-[10px] py-[50px] max-sm:py-[10px]'>
+          <div className='h-[150px] max-sm:h-[200px] mt-[100px] max-xl:mt-[50px] max-md:mt-[20px] max-xl:w-[400px] max-lg:w-[300px] max-sm:w-full max-lg:mt-[50px] max-sm:ml-[10px] max-md:mt-[0px] max-sm:w-[280px]'>
             <h1 className='font-serif font-bold text-[30px] pb-2 max-sm:w-[200px] '>News Letter</h1>
             <div className='pb-5'>
-              <input type="text" placeholder="Email" className=" w-[460px] max-sm:w-[150px] max-xl:w-[250px] bg-[#F9EDE1] border border-gray-300 rounded-md px-4 py-2 mr-2" />
-              <button type="submit" className="bg-[#2B231D] hover:bg-blue-700 text-white py-2 px-4 rounded">Subscribe</button>
+              <input type="text" placeholder="Email" className=" w-[460px] max-sm:w-[150px] max-xl:w-[200px] max-lg:w-[250px] max-sm:w-[300px] max-[400px]:w-[250px] max-lg:mb-1 bg-[#F9EDE1] border border-gray-300 rounded-md px-4 py-2 mr-2" />
+              <button type="submit" className="bg-[#2B231D] max-sm:w-[80px] max-sm:text-[10px] hover:bg-blue-700 text-white py-2 px-4    rounded">Subscribe</button>
             </div>
-            <p className='max-xl:w-[350px] max-sm:w-[250px]'>Sign up with your email address to receive news and updates</p>
+            <p className='max-xl:w-[350px] max-lg:w-[300px] max-sm:w-[220px]'>Sign up with your email address to receive news and updates</p>
           </div>
-          <div className='w-[350px] max-sm:w-[300px] max-sm:mr-[10px] max-sm:ml-[10px] h-[200px] flex justify-between mr-[200px] mt-[50px] max-lg:mr-[50px] max-md:ml-[50px]'>
-            <div className='max-lg:mr-[20px]'>
-              <ul className='flex flex-col items-center max-sm:ml-[20px]'>
-                <li className='pb-3'><a>Home</a></li>
-                <li className='pb-3'><a>Products</a></li>
-                <li className='pb-3'><a>Our Cafe</a></li>
-                <li className='pb-3'><a>Blog</a></li>
-                <li className='pb-3'><a>About Us</a></li>
-              </ul>
-            </div>
-            <div className='flex flex-col items-center'>
-              <h1 className='font-bold text-[20px] pb-3'>Contact Us</h1>
-              <p className='pb-3'>Call us : 2343452</p>
-              <p>Email: xyz@gmail.com</p>
-            </div>
+          <div className='mt-[50px] max-xl:mt-[40px] mx-3'>
+            <ul className='text-center text-[20px] max-lg:text-[18px] max-sm:text-[14px] flex flex-col gap-2'>
+              <Link href='/Home'><li>Home</li></Link>
+              <Link href='/Menu'><li>Products</li></Link>
+              <Link href='/ourCafe'><li>Our Cafe</li></Link>
+              <Link href='/Home'><li>Blog</li></Link>
+              <Link href='/about'><li>About Us</li></Link>
+            </ul>
           </div>
-
-
-        </div>
-        <div className='absolute bottom-[0px] w-full'>
+          <div className='w-[350px] max-xl:w-[300px] max-lg:w-[200px] max-sm:w-[150px] mt-[50px] flex flex-col items-end'>
+            <h1 className='font-bold text-[20px] max-lg:text-[18px] max-sm:text-[15px]'>CONTACT US</h1>
+            <p className='text-end mt-[10px] max-lg:text-[14px] max-sm:text-[11px]'>Plot No 123, Scheme no 78 Part 2 in Front of Hotel Grand Ten Vijay Nagar Indore, MP, District - Indore 445533</p>
+            <p className='max-sm:text-[11px]'>Call Us: +91 91794 44179</p>
+            <p className='max-sm:text-[11px]'>@gmail.com</p>
+          </div>
+        </div>  
+        <div className='w-full'>
           <div className='border-t-2 border-gray-400 h-[10px] w-full'></div>
           <div className='h-[70px] flex justify-center items-center'>
             <p className='font-bold text-[20px] max-md:text-[18px] max-sm:text-[14px]'>Copyright ©2024 . All rights reserved.</p>

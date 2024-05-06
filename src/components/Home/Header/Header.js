@@ -2,12 +2,12 @@ import React from 'react'
 import Image from 'next/image';
 import vegb from './assets/vegBiryani.png';
 import header from './assets/header.png'
-
+import './css/header.css'
 
 function Header() {
     return (
         <>
-            <div className='h-full w-full bg-yellow-200 bg-opacity-40 flex flex-col  '>
+            <div className='h-full w-full max-[500px]:h-[560px]  max-sm:h-[660px] max-md:h-[660px] max-lg:h-[555px] max-xl:h-[560px] bgImg text-[#fff] flex flex-col  '>
 
                 
                 <div className='flex justify-between max-sm:flex-col max-sm:items-center pb-[125px] max-md:pb-[50px]'>

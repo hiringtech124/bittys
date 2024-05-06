@@ -1,9 +1,9 @@
 import React from 'react'
 import About from '@/components/Menu/About/About'
 import Header from '@/components/Menu/Header/Header'
-import OurSpecial from '@/components/Menu/OurSpecial/OurSpecial'
 import WeServe from '@/components/Menu/WeServe/WeServe'
 import Visitus from '@/components/Home/Visit/Visitus'
+import OurMenu from '@/components/Menu/ourMenu/ourMenu'
 
 
 export default function Home() {
@@ -12,9 +12,8 @@ export default function Home() {
         <Header/>
         <About/>
         <WeServe/>
-        <OurSpecial/>
-        <Visitus/>
-        
+        <OurMenu/>
+        <Visitus/>     
       </>
     );
   }

@@ -5,7 +5,7 @@ import "./css/explore.css"
 function ExploreCafe() {
   return (
     <>
-      <div className='h-screen max-lg:h-full w-full bg-yellow-200 bg-opacity-40 max-sm:flex max-sm:flex-col max-sm:items-center'>
+      <div className='h-full max-lg:h-full w-full bg-yellow-200 bg-opacity-40 flex flex-col items-center'>
 
 
 
@@ -15,42 +15,41 @@ function ExploreCafe() {
             <h1 className='font-bold text-[60px] font-serif max-lg:text-[45px] max-md:text-[35px] max-sm:text-[25px]'>Explore our Cafe</h1>
           </div>
           <div className='w-[516px] h-[105px] text-[15px] max-lg:text-[13px] max-md:text-[11px] max-md:w-[400px] max-sm:w-[300px]'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vivamus lobortis elit et mi lobortis, sed varius tortor aliquam.
-              Maecenas ac quam lacinia,
+            <p>Welcome to Bitty&apos;s Cafe, where cool vibes and delicious flavors meet. Step inside and discover a unique cafe experience that&apos;s all about good coffee, great food, and laid-back ambiance.
             </p>
           </div>
         </div>
-        <div className='flex justify-center max-lg:grid max-lg:grid-cols-3 max-lg:gap-4 max-md:grid-cols-2 max-md:gap-4 max-sm:grid-cols-1 max-sm:gap-4
-        max-md:ml-[50px] max-sm:ml-[30px] max-lg:pb-[30px]'>
-          <div className=' chefS w-[310px] h-[400px] mr-[50px] rounded-lg flex items-center pt-[190px] max-lg:w-[250px] max-lg:h-[300px] max-lg:pt-[100px]' >
+        
+        <div className='grid grid-cols-2 max-sm:flex max-sm:flex-col max-sm:gap-y-[30px] gap-x-[100px] max-lg:gap-x-[50px] max-lg:gap-y-[100px] gap-y-[150px] pb-[50px] max-sm:static relative'>
+          <div className=' chefS w-[310px] h-[400px]  rounded-lg flex items-center pt-[190px] max-lg:w-[240px] max-lg:h-[300px] max-lg:pt-[100px]' >
             <div className=' flex flex-col items-center'>
               <h1 className='font-serif font-bold text-[32px] pb-5 tracking-wide max-lg:text-[25px] text-[#fff]'>Chef&apos;s Special</h1>
-              <p className='pb-5 pl-5 max-lg:text-[13px] text-[#fff]'>Lorem ipsum Lorem ipsum dolor Lorem ipsum Lorem ipsum dolor sit</p>
+              <p className='pb-5 pl-5 text-[14px] leading-4 max-lg:text-[13px] text-[#fff]'>Experience culinary brilliance with our Chef&apos;s Specials—where innovation meets expertise for an unparalleled dining journey.</p>
               <a className='text-[red] text-[20px] font-bold max-lg:text-[16px]'>Explore More</a>
             </div>
           </div>
-          <div className='italian w-[310px] h-[400px] mr-[50px] rounded-lg flex items-center pt-[190px] max-lg:w-[250px] max-lg:h-[300px] max-lg:pt-[100px]' >
+          <div className='italian w-[310px] h-[400px] rounded-lg flex items-center pt-[190px] max-lg:w-[240px] max-lg:h-[300px]  max-lg:pt-[100px]' >
             <div className='flex flex-col items-center'>
               <h1 className='font-serif font-bold text-[32px] pb-5 tracking-wide max-lg:text-[25px] text-[#fff]'>Italian</h1>
-              <p className='pb-5 pl-5 max-lg:text-[13px] text-[#fff]'>Lorem ipsum Lorem ipsum dolor sit Lorem ipsum Lorem ipsum dolor sit</p>
+              <p className='pb-5 pl-5 text-[14px] leading-4 max-lg:text-[13px] text-[#fff]'>Savor the essence of Italy with our authentic Italian cuisine, crafted with passion and tradition.</p>
               <a className='text-[red] text-[20px] font-bold max-lg:text-[16px]'>Explore More</a>
             </div>
           </div>
-          <div className=' baverage w-[310px] h-[400px] mr-[50px] rounded-lg flex items-center pt-[190px] max-lg:w-[250px] max-lg:h-[300px] max-lg:pt-[100px]' >
+          <div className=' baverage w-[310px] h-[400px] rounded-lg flex items-center pt-[190px] max-lg:w-[240px] max-lg:h-[300px] max-lg:pt-[100px]' >
             <div className=' flex flex-col items-center'>
               <h1 className='font-serif font-bold text-[32px] pb-5 tracking-wide max-lg:text-[25px] text-[#fff]'>Baverages</h1>
-              <p className='pb-5 pl-5 max-lg:text-[13px] text-[#fff]'>Lorem ipsum Lorem ipsum dolor sit Lorem ipsum Lorem ipsum dolor sit</p>
+              <p className='pb-5 pl-5 text-[14px] leading-4 max-lg:text-[13px] text-[#fff]'>Quench your thirst with our refreshing beverages, crafted to perfection for your enjoyment.</p>
               <a className='text-[red] text-[20px] font-bold max-lg:text-[16px]'>Explore More</a>
             </div>
           </div>
-          <div className='sIndian w-[310px] h-[400px] flex items-center rounded-lg pt-[190px] max-lg:w-[250px] max-lg:h-[300px] max-lg:pt-[100px]'  >
+          <div className='sIndian w-[310px] h-[400px] flex items-center rounded-lg pt-[190px] max-lg:w-[240px] max-lg:h-[300px] max-lg:pt-[100px]'  >
             <div className=' flex flex-col items-center'>
               <h1 className='font-serif font-bold text-[32px] pb-5 tracking-wide max-lg:text-[25px] text-[#fff]'>South Indian</h1>
-              <p className='pb-5 pl-5 max-lg:text-[13px] text-[#fff]'>Lorem ipsum Lorem ipsum dolor sit Lorem ipsum Lorem ipsum dolor sit</p>
+              <p className='pb-5 pl-5 text-[14px] max-lg:text-[13px] text-[#fff] leading-4'>Embark on a flavor-filled journey to South India with our authentic dishes, celebrating the vibrant tastes of the region.</p>
               <a className='text-[red] text-[20px] font-bold max-lg:text-[16px]'>Explore More</a>
             </div>
           </div>
+          <button className='w-[220px] h-[70px] max-lg:w-[150px] max-lg:h-[60px] bg-[#5B422E] opacity-50 text-[#fff] rounded-xl z-2 absolute top-[44%] left-[35%] max-lg:top-[43%] max-sm:static max-sm:top-[0px]  max-sm:mb-[20px]'>Explore More</button>
 
         </div>
       </div>
