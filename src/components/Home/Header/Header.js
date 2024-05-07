@@ -1,43 +1,37 @@
 import React from 'react'
 import Image from 'next/image'
 import vegb from './assets/vegBiryani.png'
-import header from './assets/header.png'
 import './css/header.css'
 
-function Header () {
-  return (
-    <>
-      <div className='h-[610px] wull max-[500px]:h-[560px]  max-sm:h-[660px] max-md:h-[660px] max-lg:h-[555px] max-xl:h-[560px] bgImg text-[#fff] flex flex-col  max-w-6xl mx-auto'>
-        <div className='flex justify-between gap-10 max-sm:flex-col max-sm:items-center pb-[125px] max-md:pb-[50px]'>
-          <div className='flex flex-col justify-start ml[150px] max-xl:ml-[100px] max-xl:ml-[60px] mt[100px] max-sm:ml-[0px] max-sm:mt-[50px] max-md:w-full  max-sm:items-center max-md:ml-[50px]'>
-            <Image
-              src={header}
-              className=' max-sm:w-[200px] max-xl:w-[300px] max-lg:w-[200px] max-md:w-[150px] max-sm:w-[100px] max-sm:mb-[10px]'
-              alt='header'
-            />
-            <h1 className='font-bold text-[60px] font-serif w-[600px] max-xl:w-[400px] max-lg:w-[300px] max-md:w-[250px] max-sm:w-[250px] mb-[20px] tracking-tight max-xl:text-[40px] max-lg:text-[30px] max-md:text-[35px] max-sm:text-[35px] max-sm:mb-[10px]'>
-              &quot;Where Every Bite Tells a Story&quot;
-            </h1>
-            <p className=' mb-[30px] w-[450px] max-xl:w-[400px] max-sm:w-[250px] max-lg:w-[300px] max-sm:mb-[10px] max-sm:text-[12px] max-md:text-[13px] max-lg:text-[14px]'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              lobortis elit et mi lobortis, sed varius tortor aliquam. Maecenas
-              ac quam lacinia,
-            </p>
-            <button className='bg-[#5B422E] rounded-lg mt-[0px] w-[155px] max-sm:w-[100px] max-sm:h-[40px] max-md:w-[120px] max-md:h-[50px] h-[70px] text-[#fff] text-[16px] max-sm:text-[11px] max-sm:text-[14px]'>
-              Explore More
-            </button>
-          </div>
-          <div className=' flex justify-center mt-[120px] max-sm:mt-[30px] mr-[50px] max-xl:ml-[200px] max-lg:ml-[100px] max-md:ml-[0px] max-md:mr-[50px] max-sm:mr-[0px]  '>
-            <Image
-              src={vegb}
-              alt='vegbiryani'
-              className='w-[320px] h-[320px] max-xl:w-[280px] max-xl:h-[280px] max-lg:w-[200px] max-lg:h-[200px] max-md:w-[150px] max-md:h-[150px]'
-            />
-          </div>
-        </div>
-      </div>
-    </>
-  )
+function Header() {
+    return (
+        <>
+            <div className='h-full bgImg text-[#fff] flex flex-col max-w-7xl mx-auto'>
+                <div className='flex justify-center gap-[300px] max-xl:gap-[150px] max-lg:gap-[150px] max-[850px]:gap-[80px] max-sm:gap-y-5 max-sm:flex-col max-sm:items-center pt-[150px] max-sm:pt-[50px] pb-[130px] max-md:pb-[50px]'>
+                    <div className='flex flex-col justify-start max-w-lg max-lg:max-w-sm max-md:w-[300px]  max-sm:items-center'>
+                        <h1 className='font-bold text-[60px]  font-serif max-sm:px-[10px] mb-[20px] tracking-tight max-xl:text-[40px] max-lg:text-[30px] max-md:text-[35px] max-sm:text-[35px] max-sm:mb-[10px]'>
+                            &quot;Where Every Bite Tells a Story&quot;
+                        </h1>
+                        <p className=' mb-[30px] max-sm:text-center max-sm:px-[20px] max-sm:mb-[10px] max-sm:text-[12px] max-md:text-[13px] max-lg:text-[14px]'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            lobortis elit et mi lobortis, sed varius tortor aliquam. Maecenas
+                            ac quam lacinia,
+                        </p>
+                        <button className='bg-[#5B422E] rounded-lg mt-[0px] w-[155px] max-sm:w-[100px] max-sm:h-[40px] max-md:w-[120px] max-md:h-[50px] h-[70px] text-[#fff] text-[16px] max-sm:text-[11px] max-sm:text-[14px]'>
+                            Explore More
+                        </button>
+                    </div>
+                    <div className=' flex justify-center '>
+                        <Image
+                            src={vegb}
+                            alt='vegbiryani'
+                            className='w-[320px] h-[320px] max-xl:w-[250px] max-xl:h-[250px] max-lg:w-[200px] max-lg:h-[200px] max-md:w-[150px] max-md:h-[150px]'
+                        />
+                    </div>
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default Header

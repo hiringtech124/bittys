@@ -7,7 +7,7 @@
 
   background-size: cover;
   background-repeat: no-repeat;
-  height: 820px;
+  height: 117%;
   width: 100%;
   left: 0;
 }
@@ -15,13 +15,14 @@
   content: "";
   position: absolute;
   width: 100%;
-  height: 820px;
+  height: 117%;
   background: rgba(0, 0, 0, 0.6);
   z-index: -1;
   top: -15%;
   left: 0;
 }
-@media (max-width: 500px) {
+
+@media (max-width: 640px) {
   .bgImg::before {
     z-index: -1;
     top: -15%;
@@ -29,11 +30,8 @@
     content: "";
     /* background-image: url("./assets/hero.jpg"); */
     background-image: url("../assets/homeback.png");
-    background-size: 500%;
-    background-position: 50% 40%;
-
     background-repeat: no-repeat;
-    height: 100%;
+    height:695px;
     width: 100%;
     left: 0;
   }
@@ -41,7 +39,103 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 695px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    top: -15%;
+    left: 0;
+  }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+  .bgImg::before {
+    z-index: -1;
+    top: -15%;
+    position: absolute;
+    content: "";
+    /* background-image: url("./assets/hero.jpg"); */
+    background-image: url("../assets/homeback.png");
+    background-repeat: no-repeat;
+    height: 688px;
+    width: 100%;
+    left: 0;
+  }
+  .bgImg::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 688px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    top: -15%;
+    left: 0;
+  }
+}
+@media (min-width:769px) and (max-width: 1024px) {
+  .bgImg::before {
+    z-index: -1;
+    top: -15%;
+    position: absolute;
+    content: "";
+    /* background-image: url("./assets/hero.jpg"); */
+    background-image: url("../assets/homeback.png");
+    background-repeat: no-repeat;
+    height: 757px;
+    width: 100%;
+    left: 0;
+  }
+  .bgImg::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 757px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    top: -15%;
+    left: 0;
+  }
+}
+@media (min-width:1025px) and (max-width: 1280px) {
+  .bgImg::before {
+    z-index: -1;
+    top: -15%;
+    position: absolute;
+    content: "";
+    /* background-image: url("./assets/hero.jpg"); */
+    background-image: url("../assets/homeback.png");
+    background-repeat: no-repeat;
+    height: 797px;
+    width: 100%;
+    left: 0;
+  }
+  .bgImg::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 797px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    top: -15%;
+    left: 0;
+  }
+}
+@media (min-width: 1281px) {
+  .bgImg::before {
+    z-index: -1;
+    top: -15%;
+    position: absolute;
+    content: "";
+    /* background-image: url("./assets/hero.jpg"); */
+    background-image: url("../assets/homeback.png");
+    background-repeat: no-repeat;
+    height: 856px;
+    width: 100%;
+    left: 0;
+  }
+  .bgImg::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 856px;
     background: rgba(0, 0, 0, 0.6);
     z-index: -1;
     top: -15%;
