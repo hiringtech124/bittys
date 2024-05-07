@@ -4,6 +4,7 @@ import Header from '@/components/Menu/Header/Header'
 import WeServe from '@/components/Menu/WeServe/WeServe'
 import Visitus from '@/components/Home/Visit/Visitus'
 import OurMenu from '@/components/Menu/ourMenu/ourMenu'
+import Menu from '@/components/Menu/menuPage/menu'
 
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
         <Header/>
         <About/>
         <WeServe/>
-        <OurMenu/>
+        {/* <OurMenu/> */}
+        <Menu/>
         <Visitus/>     
       </>
     );

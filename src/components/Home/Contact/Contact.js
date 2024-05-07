@@ -16,10 +16,10 @@ function Contact() {
           </div>
           <div className='mt-[50px] max-xl:mt-[40px] mx-3'>
             <ul className='text-center text-[20px] max-lg:text-[18px] max-sm:text-[14px] flex flex-col gap-2'>
-              <Link href='/Home'><li>Home</li></Link>
+              <Link href='/'><li>Home</li></Link>
               <Link href='/Menu'><li>Products</li></Link>
               <Link href='/ourCafe'><li>Our Cafe</li></Link>
-              <Link href='/Home'><li>Blog</li></Link>
+              <Link href='/'><li>Blog</li></Link>
               <Link href='/about'><li>About Us</li></Link>
             </ul>
           </div>

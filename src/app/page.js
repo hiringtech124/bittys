@@ -5,7 +5,6 @@ import ExploreCafe from "@/components/Home/OurCafe/ExploreCafe";
 import Products from "@/components/Home/OurProducts/Products";
 import Blog from "@/components/Home/Blogs/Blog";
 import Visitus from "@/components/Home/Visit/Visitus";
-import Contact from "@/components/Home/Contact/Contact";
 export default function Home() {
   return (
     <>
@@ -16,7 +15,6 @@ export default function Home() {
         <Products />
         <Blog />
         <Visitus />
-        <Contact />
       </main>
     </>
   );
