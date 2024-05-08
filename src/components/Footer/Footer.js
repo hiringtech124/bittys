@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-function Contact() {
+function Footer() {
   return (
     <>
       <div className='bg-[#F9EDE1] bg-cover w-full flex flex-col items-center justify-center'>
@@ -42,4 +42,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Footer

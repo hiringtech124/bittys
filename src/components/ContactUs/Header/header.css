@@ -1,0 +1,10 @@
+.contact::before{
+    z-index: -1;
+  top: -15%;
+  position: absolute;
+  content: "";
+  background-color: #292E36;
+  height: 400px;
+  width: 100%;
+  left: 0;
+}
