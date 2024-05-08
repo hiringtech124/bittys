@@ -99,26 +99,30 @@ const Menu = () => {
     // {/* {Widht > 778 ? ( */}
     <>
       <div className=" h-full w-full bg-[#F5F9D6] flex flex-col items-center pt-[30px] ">
-        <h1 className='font-serif font-bold text-[64px] max-xl:text-[52px] max-lg:text-[40px] max-sm:text-[35px]  text-[#4D3029]'>Our Menu</h1>
-        <p className='text-[24px] mb-[30px] max-xl:text-[22px] max-lg:text-[20px] max-sm:text-[18px] w-[90%] max-lg:w-[50%] max-md:w-[60%] max-sm:w-[80%] mt-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.varius aliquam urna ut.</p>
-        <div className="tabs-container flex w-full">
-          <div className=" px-10">
+        <h1 className='font-serif font-bold text-[64px] text-[#4D3029]'>Our Menu</h1>
+        <p className='text-[24px] mb-[30px] mt-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.varius aliquam urna ut.</p>
+        <div className="flex justify-center gap-x-[100px] w-full">
+
+          <div className="grid grid-cols-2 gap-5 h-screen overflow-scroll px-10">
             {tabs.map((tab, index) => (
               <div
                 key={index}
-                className={`tab ${index === activeTab ? "active" : ""} mb-[20px]`}
+                className={`tab ${index === activeTab ? "active" : ""} w-[150px] h-[200px]`}
                 onClick={() => handleTabClick(index)}
               >
                 {/* {tab.label} */}
-                <Image className='w-[200px] h-[200px] mb-5 max-xl:w-[150px] max-xl:h-[150px] max-sm:w-[100px] max-sm:h-[100px] ' src={tab.img} alt='img1' />
+                <Image className='w-[150px] h-[150px] mb-5 ' src={tab.img} alt='img1' />
 
-                <p className='text-[#00A890] text-[24px] max-xl:text-[22px] max-lg:text-[20px] max-sm:text-[18px] font-bold tracking-wider'>{tab.label}</p>
+                <p className='text-[#00A890] text-center text-[20px] font-bold tracking-wider'>{tab.label}</p>
               </div>
 
             ))}
           </div>
-          <div className="  pb-[50px] w-full">
-            {tabs[activeTab].content}
+          <div>
+
+            <div className="  pb-[50px] w-full">
+              {tabs[activeTab].content}
+            </div>
           </div>
         </div>
 
