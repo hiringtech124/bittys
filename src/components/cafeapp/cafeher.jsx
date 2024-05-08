@@ -7,7 +7,7 @@ import './css/cafeher.css'
 const Cafeher = () => {
   return (
     <>
-      <div className='cafehead text-[#fff] h-full w-full flex flex-col justify-center items-center pt-[10px] pb-[100px] max-sm:py-[50px]'>
+      <div className='cafehead relative text-[#fff] h-full w-full flex flex-col justify-center items-center pt-[10px] pb-[100px] max-sm:py-[50px]'>
         <div className='w-[800px] h-[450px] max-lg:w-[600px] max-lg:h-[350px] max-md:w-[500px] max-md:h-[300px] max-sm:w-[230px] max-sm:h-[130px]'>
           <div className='flex flex-col items-center pt-[100px] max-sm:pt-[0px]' > 
             <h1 className='font-serif font-bold text-[70px] max-lg:text-[50px] max-md:text-[40px] max-sm:text-[25px]'>Our Cafe</h1>

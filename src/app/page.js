@@ -8,7 +8,7 @@ import Visitus from "@/components/Home/Visit/Visitus";
 export default function Home() {
   return (
     <>
-      <main className="overflow-x-hidden">
+      <main className="">
         <Header />
         <About />
         <ExploreCafe />

@@ -6,7 +6,7 @@ import './css/header.css'
 function Header() {
     return (
         <>
-            <div className='h-full bgImg text-[#fff] flex flex-col max-w-7xl mx-auto'>
+            <div className='h-full relative bgImg text-[#fff] flex flex-col mx-auto'>
                 <div className='flex justify-center gap-[300px] max-xl:gap-[150px] max-lg:gap-[150px] max-[850px]:gap-[80px] max-sm:gap-y-5 max-sm:flex-col max-sm:items-center pt-[150px] max-sm:pt-[50px] pb-[130px] max-md:pb-[50px]'>
                     <div className='flex flex-col justify-start max-w-lg max-lg:max-w-sm max-md:w-[300px]  max-sm:items-center'>
                         <h1 className='font-bold text-[60px]  font-serif max-sm:px-[10px] mb-[20px] tracking-tight max-xl:text-[40px] max-lg:text-[30px] max-md:text-[35px] max-sm:text-[35px] max-sm:mb-[10px]'>

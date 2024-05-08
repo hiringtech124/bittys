@@ -1,48 +1,24 @@
-.cafehead::before {
+
+  .cafehead::before {
     z-index: -1;
-    top: -15%;
+    top: -60%;
+    left: 0;
     position: absolute;
     content: "";
     background-image: url('../assets/ourCafeHead.png');
     
     background-size : cover;
     background-repeat: no-repeat;
-    height: 115%;
+    height: 160%;
     width: 100%;
   }
   .cafehead::after{
     content: "";
     position: absolute;
     width: 100%;
-    height: 115%;
+    height: 160%;
     background: rgba(0,0,0,0.6);
     z-index: -1;
-    top: -15%;
-  }
-  @media (max-width: 1024px) {
-    .cafehead::before{
-      height: 108%;
-    }
-    .cafehead::after{
-      height: 108%;
-    }
-    
-  }
-  @media (max-width: 768px) {
-    .cafehead::before{
-      height: 85%;
-    }
-    .cafehead::after{
-      height: 85%;
-    }
-    
-  }
-  @media (max-width: 640px) {
-    .cafehead::before{
-      height: 57%;
-    }
-    .cafehead::after{
-      height: 57%;
-    }
-    
+    top: -60%;
+    left: 0;
   }
