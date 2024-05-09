@@ -12,7 +12,7 @@ function Visitus() {
           <div className=''>
             <div className=''>
               <p className='tracking-wide mb-[50px] text-[20px] w-[500px] max-xl:w-[450px] max-xl:text-[18px] max-lg:text-[14px] max-sm:text-[12px] max-lg:w-[350px] max-sm:w-[250px]'>
-              Located in Bhopal, Bitty&apos;s Cafe is your go-to spot for a chill hangout, productive work session, or casual catch-up. Drop by and see what makes us the coolest Cafe in town!</p>
+              Located in Indore, Bitty&apos;s Cafe is your go-to spot for a chill hangout, productive work session, or casual catch-up. Drop by and see what makes us the coolest Cafe in town!</p>
               <p className='tracking-wide text-[20px] max-xl:text-[18px] max-sm:text-[12px] '>MON to SUN.....................9:00AM-9:00PM</p>
             </div>
 
