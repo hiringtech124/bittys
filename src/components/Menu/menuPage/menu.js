@@ -33,7 +33,7 @@ const Menu = () => {
   };
   const tabs = [
     {
-      label: "Baverage",
+      label: "Beverages",
       img: img1,
       content: <Baverage />
     },
@@ -101,19 +101,19 @@ const Menu = () => {
       <div className=" h-full w-full bg-[#F5F9D6] flex flex-col items-center pt-[30px] ">
         <h1 className='font-serif font-bold text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-[450px]:text-[30px] text-[#4D3029]'>Our Menu</h1>
         <p className='text-[24px] w-[60%] max-md:w-[80%] text-center max-xl:text-[20px] max-lg:text-[16px] max-md:text-[14px] mb-[30px] mt-[30px] max-xl:mt-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.varius aliquam urna ut.</p>
-        <div className="flex h-full justify-center gap-x-[100px] max-xl:gap-x-[50px] max-lg:gap-x-[0px] max-md:gap-x-[0px] w-full">
+        <div className="flex h-full justify-center gap-x-[100px] max-xl:gap-x-[50px] max-lg:gap-x-[0px] max-md:gap-x-[0px] max-[450px]:gap-x-[0px] w-full">
 
-          <div className="grid grid-cols-1 gap-y-[10px] mt-[95px] max-[450px]:mt-[50px] max-md:mt-[60px] h-[600px] overflow-scroll  px-10 pb-[50px] max-md:px-[10px]">
+          <div className="grid grid-cols-1 gap-y-[10px] mt-[95px] max-[450px]:mt-[50px] max-md:mt-[60px] h-[600px] overflow-scroll  px-10 max-[450px]:px-[0px] pb-[50px]">
             {tabs.map((tab, index) => (
               <div
                 key={index}
-                className={`tab ${index === activeTab ? "active" : ""} w-[150px] h-[200px] max-xl:w-[100px] max-xl:h-[140px] flex flex-col items-center`}
+                className={`tab ${index === activeTab ? "active" : ""} max-[450px]:mb-[20px] w-[150px] h-[200px] max-xl:w-[100px] max-xl:h-[140px] max-[450px]:w-[85px] max-[450px]:h-[90px] flex flex-col items-center`}
                 onClick={() => handleTabClick(index)}
               >
                 {/* {tab.label} */}
-                <Image className='w-[150px] h-[150px] max-xl:w-[100px] max-xl:h-[100px] mb-1 ' src={tab.img} alt='img1' />
+                <Image className='w-[150px] h-[150px] max-xl:w-[100px] max-xl:h-[100px] max-[450px]:w-[70px] max-[70px]:h-[110px] mb-1 ' src={tab.img} alt='img1' />
 
-                <p className='text-[#00A890] max-xl:w-[140px] text-center text-[20px] max-xl:text-[18px] font-bold tracking-wider'>{tab.label}</p>
+                <p className='text-[#00A890] max-xl:w-[140px] max-[450px]:w-[85px] text-center text-[20px] max-xl:text-[18px] max-[450px]:text-[14px] font-bold tracking-wider'>{tab.label}</p>
               </div>
 
             ))}
