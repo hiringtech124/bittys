@@ -35,7 +35,7 @@ function Sandwich() {
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative'>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img5} alt="Baverage" />
             <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Paneer cheese sandwich</h1>
-            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>30/-</h2>
+            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>90/-</h2>
           </div>
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative  '>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img6} alt="Baverage" />

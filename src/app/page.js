@@ -12,7 +12,7 @@ export default function Home() {
         <Header />
         <About />
         <ExploreCafe />
-        <Products />
+        {/* <Products /> */}
         <Blog />
         <Visitus />
       </main>

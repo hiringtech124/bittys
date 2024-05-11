@@ -20,7 +20,7 @@ function Chinese() {
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative'>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img2} alt="Baverage" />
             <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Hakka Noodles</h1>
-            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>60/-</h2>
+            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>99/-</h2>
           </div>
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative'>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img3} alt="Baverage" />
@@ -30,17 +30,17 @@ function Chinese() {
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative'>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img4} alt="Baverage" />
             <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Chilli Paneer</h1>
-            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>99/-</h2>
+            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>139/-</h2>
           </div>
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative'>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img5} alt="Baverage" />
             <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Paneer fried Rice</h1>
-            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>30/-</h2>
+            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>119/-</h2>
           </div>
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative  '>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img6} alt="Baverage" />
             <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Chilli Potato</h1>
-            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>99/-</h2>
+            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>139/-</h2>
           </div>
         </div>
       </div>

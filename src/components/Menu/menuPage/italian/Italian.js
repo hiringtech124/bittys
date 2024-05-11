@@ -34,13 +34,13 @@ function Italian() {
           </div>
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative'>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img5} alt="Baverage" />
-            <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Green Tea</h1>
-            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>30/-</h2>
+            <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Veg Pasta</h1>
+            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>80/-</h2>
           </div>
           <div className='flex flex-col items-center justify-center border border-[#8D4242] w-[220px] h-[260px] relative  '>
             <Image className="w-[150px] h-[150px] absolute top-[-35%]" src={img6} alt="Baverage" />
-            <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Coffee</h1>
-            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>15/-</h2>
+            <h1 className='font-serif font-bold text-center text-[24px] tracking-wide mt-[30px]'>Cheese Corn Pasta</h1>
+            <h2 className='font-serif font-bold text-center text-[32px] tracking-wide'>140/-</h2>
           </div>
         </div>
       </div>
