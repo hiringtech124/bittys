@@ -12,10 +12,8 @@ function Header() {
                         <h1 className='font-bold text-[60px]  font-serif max-sm:px-[10px] mb-[20px] tracking-tight max-xl:text-[40px] max-lg:text-[30px] max-md:text-[35px] max-sm:text-[35px] max-sm:mb-[10px]'>
                             &quot;Where Every Bite Tells a Story&quot;
                         </h1>
-                        <p className=' mb-[30px] max-sm:text-center max-sm:px-[20px] max-sm:mb-[10px] max-sm:text-[12px] max-md:text-[13px] max-lg:text-[14px]'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                            lobortis elit et mi lobortis, sed varius tortor aliquam. Maecenas
-                            ac quam lacinia,
+                        <p className=' mb-[30px] tracking-widest max-sm:text-center max-sm:px-[20px] max-sm:mb-[10px] max-sm:text-[12px] max-md:text-[13px] max-lg:text-[14px]'>
+                        Welcome to Bitty&apos;s Cafe, a culinary gem in Indore that promises not just delicious food but also a vibrant atmosphere filled with warmth and connection. Our journey began in December 2022, driven by a love for exceptional cuisine and a desire to create a welcoming space for all.
                         </p>
                         <button className='bg-[#5B422E] rounded-lg mt-[0px] w-[155px] max-sm:w-[100px] max-sm:h-[40px] max-md:w-[120px] max-md:h-[50px] h-[70px] text-[#fff] text-[16px] max-sm:text-[11px] max-sm:text-[14px]'>
                             Explore More

@@ -22,6 +22,16 @@ import img7 from './assets/combo.png'
 import img8 from './assets/paratha.png'
 import img9 from './assets/juice.png'
 import img10 from './assets/other.png'
+import img11 from './assets/icetea.png'
+import img12 from './assets/maggi.png'
+import img13 from './assets/momo.png'
+import img14 from './assets/shakes.png'
+import img15 from './assets/soupdrink.png'
+import IceTea from "./icetea/IceTea";
+import Momos from "./momos/Momos";
+import Shakes from "./shakes/Shakes";
+import Maggi from "./maggi/Maggi";
+import SoupDrink from "./soupDrink/SoupDrink";
 
 
 
@@ -80,6 +90,31 @@ const Menu = () => {
       label: "Other Offerings",
       img: img10,
       content: <Other />
+    },
+    {
+      label: "Iced Tea",
+      img: img11,
+      content: <IceTea />,
+    },
+    {
+      label: "Maggi",
+      img: img12,
+      content:<Maggi/> ,
+    },
+    {
+      label: "Momos",
+      img: img13,
+      content:<Momos/>,
+    },
+    {
+      label: "Shakes",
+      img: img14,
+      content: <Shakes/>,
+    },
+    {
+      label: "Soups / Drinks",
+      img: img15,
+      content: <SoupDrink/>,
     },
   ];
 
