@@ -1,6 +1,7 @@
 import React from 'react'
 import headline from './assets/header.png'
 import Image from 'next/image'
+import Link from 'next/link'
 function About() {
     return (
         <>
@@ -19,7 +20,7 @@ function About() {
 
                     </div>
 
-                    <button className='w-[155px] h-[70px] bg-[#5B422E] max-md:w-[130px] max-md:h-[60px] max-sm:w-[110px] max-sm:h-[55px] rounded-lg text-[#fff] text-[16px] max-sm:text-[12px]'>Explore More</button>
+                    <Link href="/about"><button className='w-[155px] h-[70px] bg-[#5B422E] max-md:w-[130px] max-md:h-[60px] max-sm:w-[110px] max-sm:h-[55px] rounded-lg text-[#fff] text-[16px] max-sm:text-[12px]'>Explore More</button></Link>
                 </div>
             </div>
         </>

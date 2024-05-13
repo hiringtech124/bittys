@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import header from './assets/header.png'
 import "./css/explore.css"
+import Link from 'next/link'
 function ExploreCafe() {
   return (
     <>
@@ -49,7 +50,7 @@ function ExploreCafe() {
               <a className='text-[red] text-[20px] font-bold max-lg:text-[16px]'>Explore More</a>
             </div>
           </div>
-          <button className='w-[220px] h-[70px] max-lg:w-[150px] max-lg:h-[60px] bg-[#5B422E] opacity-50 text-[#fff] rounded-xl z-2 absolute top-[44%] left-[35%] max-lg:top-[43%] max-sm:static max-sm:top-[0px]  max-sm:mb-[20px]'>Explore More</button>
+          <Link href="/Menu" className='w-[220px] h-[70px] max-lg:w-[150px] max-lg:h-[60px] bg-[#5B422E] opacity-50 text-[#fff] rounded-xl z-2 absolute top-[44%] left-[35%] max-lg:top-[43%] max-sm:static max-sm:top-[0px] flex items-center justify-center  max-sm:mb-[20px]'><button className=''>Explore More</button></Link>
 
         </div>
       </div>
