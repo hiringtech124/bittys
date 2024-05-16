@@ -21,15 +21,16 @@ function Maggi() {
             price: "50/-"
         },
         {
-            img: img2,
-            itemName: "Plain Cheese Maggi",
-            price: "70/-"
-        },
-        {
             img: img3,
             itemName: "Masala Maggi",
             price: "60/-"
         },
+        {
+            img: img2,
+            itemName: "Plain Cheese Maggi",
+            price: "70/-"
+        },
+        
         {
             img: img4,
             itemName: "Double Masala Maggi",

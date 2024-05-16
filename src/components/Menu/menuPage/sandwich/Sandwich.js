@@ -13,14 +13,19 @@ import Image from 'next/image'
 function Sandwich() {
   const items = [
     {
+      img: img2,
+      itemName: "Bombay Sandwich",
+      price: "50/-"
+    },
+    {
       img: img1,
       itemName: "Veg Sandwich",
       price: "60/-"
     },
     {
-      img: img2,
-      itemName: "Bombay Sandwich",
-      price: "50/-"
+      img: img7,
+      itemName: "Veg Schezwan Sandwich",
+      price: "70/-"
     },
     {
       img: img3,
@@ -33,6 +38,14 @@ function Sandwich() {
       price: "80/-"
     },
     {
+      img: img8,
+      itemName: "Paneer Masala Sandwich",
+      price: "80/-"
+    },
+    
+    
+    
+    {
       img: img5,
       itemName: "Paneer Cheese Sandwich",
       price: "90/-"
@@ -42,16 +55,7 @@ function Sandwich() {
       itemName: "Bitty's Special Sandwich",
       price: "99/-"
     },
-    {
-      img: img7,
-      itemName: "Veg Schezwan Sandwich",
-      price: "70/-"
-    },
-    {
-      img: img8,
-      itemName: "Paneer Masala Sandwich",
-      price: "80/-"
-    },
+    
   ]
   return (
     <>

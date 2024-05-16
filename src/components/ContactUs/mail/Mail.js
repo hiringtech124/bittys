@@ -8,6 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaPinterest } from "react-icons/fa";
 import { useState } from 'react';
+import Link from 'next/link';
 function Mail() {
 
     const [formData, setFormData] = useState({
@@ -50,7 +51,7 @@ function Mail() {
                     <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex'> <MdMail className='text-[40px] max-md:text-[25px]' />@gmail.com</p>
                     <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex'><FaPhoneSquareAlt className='text-[40px] max-md:text-[25px]' />+91 91794 44179</p>
                     <div className='flex gap-[50px] max-xl:gap-[30px] max-md:gap-[20px]'>
-                        <FaSquareInstagram className='text-[40px] max-md:text-[25px]' />
+                        <Link href="https://www.instagram.com/bittys_foodmohalla/"><FaSquareInstagram className='text-[40px] max-md:text-[25px]' /></Link>
                         <FaFacebook className='text-[40px] max-md:text-[25px]' />
                         <AiFillTwitterCircle className='text-[40px] max-md:text-[25px]' />
                         <FaPinterest className='text-[40px] max-md:text-[25px]' />

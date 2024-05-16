@@ -12,6 +12,11 @@ import Image from 'next/image'
 function Italian() {
   const items = [
     {
+      img: img7,
+      itemName: "Veg Pasta (Desi Style)",
+      price: "80/-"
+    },
+    {
       img: img1,
       itemName: "Red Sauce Pasta",
       price: "120/-"
@@ -34,18 +39,14 @@ function Italian() {
     {
       img: img5,
       itemName: "Hot Garlic Cheese Pasta",
-      price: "120/-"
+      price: "140/-"
     },
     {
       img: img6,
       itemName: "Cheese Corn Pasta",
       price: "140/-"
     },
-    {
-      img: img7,
-      itemName: "Veg Pasta (Desi Style)",
-      price: "80/-"
-    },
+    
   ]
   return (
     <>

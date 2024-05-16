@@ -26,33 +26,18 @@ function Sindian() {
       price: "60/-"
     },
     {
-      img: img2,
-      itemName: "Masala Dosa",
-      price: "99/-"
-    },
-    {
       img: img3,
-      itemName: "Veg Sambhar",
+      itemName: "Vada Sambhar",
       price: "60/-"
-    },
-    {
-      img: img4,
-      itemName: "Onion Uttapam",
-      price: "99/-"
-    },
-    {
-      img: img5,
-      itemName: "Fried Idli",
-      price: "60/-"
-    },
-    {
-      img: img6,
-      itemName: "Veg Appe",
-      price: "99/-"
     },
     {
       img: img7,
       itemName: "Idli Vada Mix",
+      price: "60/-"
+    },
+    {
+      img: img5,
+      itemName: "Fried Idli",
       price: "60/-"
     },
     {
@@ -65,6 +50,11 @@ function Sindian() {
       itemName: "Butter Plain Dosa",
       price: "80/-"
     },
+    {
+      img: img2,
+      itemName: "Masala Dosa",
+      price: "99/-"
+    }, 
     {
       img: img10,
       itemName: "Butter Masala Dosa",
@@ -86,6 +76,11 @@ function Sindian() {
       price: "99/-"
     },
     {
+      img: img4,
+      itemName: "Onion Uttapam",
+      price: "99/-"
+    },
+    {
       img: img14,
       itemName: "Tomato Uttapam",
       price: "99/-"
@@ -98,6 +93,11 @@ function Sindian() {
     {
       img: img16,
       itemName: "Plain Appe",
+      price: "99/-"
+    },
+    {
+      img: img6,
+      itemName: "Veg Appe",
       price: "99/-"
     },
     {

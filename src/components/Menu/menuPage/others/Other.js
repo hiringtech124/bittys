@@ -8,7 +8,6 @@ import img6 from './assets/6.png'
 import img7 from './assets/7.png'
 import img8 from './assets/8.png'
 import img9 from './assets/9.png'
-import img10 from './assets/10.png'
 import img11 from './assets/11.png'
 import img12 from './assets/12.png'
 import img13 from './assets/13.png'
@@ -64,11 +63,6 @@ function Other() {
       img: img9,
       itemName: "Peri Peri Fries",
       price: "90/-"
-    },
-    {
-      img: img10,
-      itemName: "Cheese Balls",
-      price: "80/-"
     },
     {
       img: img11,

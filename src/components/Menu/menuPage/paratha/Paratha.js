@@ -20,15 +20,16 @@ function Paratha() {
       price: "20/-"
     },
     {
-      img: img2,
-      itemName: "Plain Cheese Paratha",
-      price: "40/-"
-    },
-    {
       img: img3,
       itemName: "Aaloo Paratha",
       price: "25/-"
     },
+    {
+      img: img2,
+      itemName: "Plain Cheese Paratha",
+      price: "40/-"
+    },
+    
     {
       img: img4,
       itemName: "Aaloo Cheese Paratha",
