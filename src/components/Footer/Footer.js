@@ -14,7 +14,7 @@ function Footer() {
             </div>
             <p className='max-xl:w-[350px] max-lg:w-[300px] max-sm:w-[220px]'>Sign up with your email address to receive news and updates</p>
           </div>
-          <div className='mt-[50px] max-xl:mt-[40px] mx-3'>
+          <div className='mt-[50px] max-xl:mt-[60px] mx-3'>
             <ul className='text-center text-[20px] max-lg:text-[18px] max-sm:text-[14px] flex flex-col gap-2'>
               <Link href='/'><li>Home</li></Link>
               <Link href='/Menu'><li>Products</li></Link>
@@ -25,11 +25,11 @@ function Footer() {
           </div>
           <div className='w-[350px] max-xl:w-[300px] max-lg:w-[200px] max-sm:w-[150px] max-sm:mt-[30px] mt-[50px] flex flex-col items-end'>
             <h1 className='font-bold text-[20px] max-lg:text-[18px] max-sm:text-[15px]'>CONTACT US</h1>
-            <p className='text-end mt-[10px] max-lg:text-[14px] max-sm:text-[11px]'>Plot No 123, Scheme no 78 Part 2 in Front of Hotel Grand Ten Vijay Nagar Indore, MP, District - Indore 452010</p>
-            <p className='max-sm:text-[11px]'>Call Us: +91 91794 44179</p>
-            <p className='max-sm:text-[11px]'>business@bittyscafe.com</p>
+            <p className='text-end mt-[10px] max-lg:text-[14px] max-sm:text-[12px]'>Plot No 123, Scheme no 78 Part 2 in Front of Hotel Grand Ten Vijay Nagar Indore, MP, District - Indore 452010</p>
+            <p className='max-sm:text-[12px] text-end'>Call Us: +91 91794 44179 ,+91 96697 40666</p>
+            <p className='max-sm:text-[12px]'>business@bittyscafe.com</p>
           </div>
-        </div>  
+        </div>
         <div className='w-full'>
           <div className='border-t-2 border-gray-400 h-[10px] w-full'></div>
           <div className='h-[70px] flex justify-center items-center'>

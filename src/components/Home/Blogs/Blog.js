@@ -15,7 +15,7 @@ function Blog() {
 
 
                 <div className='pb-[130px] max-md:pb-[50px] max-md:w-[270px] h-full w-full mr-[0px] flex justify-center gap-20 max-sm:flex max-sm:flex-col max-sm:items-center max-xl:w-[85%] max-lg:grid max-lg:grid-cols-3 max-xl:gap-5
-                                 max-lg:grid-cols-3 max-lg:gap-10 max-md:grid-cols-1 max-[950px]:w-[100%]  mt-8'>
+                                 max-lg:grid-cols-3 max-lg:gap-10 max-md:grid-cols-1 max-[950px]:w-[90%]  mt-8'>
                     <div className='bg-[#fff] w-[320px] h-[420px] max-lg:w-[240px] max-lg:h-[350px] flex flex-col items-center gap-2 rounded-lg'>
                         <Image src={blog1} className='p-5' alt='Blog Post 1' />
                         <div className='flex flex-col items-center'>
