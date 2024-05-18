@@ -1,66 +1,12 @@
 import React from 'react'
-import img1 from './assets/1.png'
-import img2 from './assets/2.png'
-import img3 from './assets/3.png'
-import img4 from './assets/4.png'
-import img5 from './assets/5.png'
-import img6 from './assets/6.png'
-import img7 from './assets/7.png'
-import img8 from './assets/8.png'
-import img9 from './assets/9.png'
 
-
+import data from '../../../../menu.json'
 
 import Image from 'next/image'
 function SoupDrink() {
-    const items = [
-        {
-            img: img1,
-            itemName: "Manchow Soup",
-            price: "50/-"
-        },
-        {
-            img: img2,
-            itemName: "Hot N Sour Soup",
-            price: "50/-"
-        },
-        {
-            img: img3,
-            itemName: "Tomato Soup",
-            price: "50/-"
-        },
-        {
-            img: img4,
-            itemName: "Vegetable Soup",
-            price: "60/-"
-        },
-        {
-            img: img5,
-            itemName: "Sweet Corn Soup",
-            price: "70/-"
-        },
-        {
-            img: img6,
-            itemName: "Milk",
-            price: "30/-"
-        },
-        {
-            img: img7,
-            itemName: "Nimbu Pani",
-            price: "30/-"
-        },
-        {
-            img: img8,
-            itemName: "Chaanch",
-            price: "30/-"
-        },
-        {
-            img: img9,
-            itemName: "Lassi",
-            price: "40/-"
-        },
+    const beveragesCategory = data.categories.find(category => category.name === 'Soups / Drinks');
 
-    ]
+    const items = beveragesCategory.items;
     return (
         <>
             <div className='h-full w-full bg-[#F5F9D6] flex flex-col items-center px-[20px] max-[450px]:px-[0px]'>
@@ -70,13 +16,11 @@ function SoupDrink() {
                     {items.map((items, index) => (
                         <div
                             key={index}
-                            className='flex flex-col max-[450px]:h-full max-[450px]:w-[85%] max-[450px]:gap-2 items-center justify-center border border-[#8D4242] w-[210px] h-[250px] max-xl:w-[170px] max-xl:h-[190px] max-lg:w-[120px] max-lg:h-[140px]  relative'
-
-                        >
-
-                            <Image className='w-[150px] h-[150px] max-xl:w-[100px] max-xl:h-[100px] max-lg:w-[70px] max-lg:h-[70px] max-xl:top-[-30%] absolute top-[-35%] max-[450px]:hidden' src={items.img} alt='img1' />
-                            <h1 className='font-serif font-bold text-center text-[24px] max-xl:text-[20px] max-lg:text-[16px] max-md:text-[17px] tracking-wide mt-[30px] max-[450px]:mt-[0px]'>{items.itemName}</h1>
-                            <h2 className='font-serif font-bold text-center text-[32px] max-xl:text-[28px] max-lg:text-[24px] max-md:text-[18px] tracking-wide'>{items.price}</h2>
+                            className='flex flex-col max-[450px]:h-full max-[450px]:w-[85%] max-[450px]:gap-2 items-center justify-center border border-[#8D4242] w-[210px] h-[250px] max-xl:w-[170px] max-xl:h-[190px] max-lg:w-[120px] max-lg:h-[140px]  relative'>
+                            <Image width={150}
+                                height={150} className='w-[150px] h-[150px] max-xl:w-[100px] max-xl:h-[100px] max-lg:w-[70px] max-lg:h-[70px] max-xl:top-[-30%] absolute top-[-35%] max-[450px]:hidden' src={`/${items.img}`} alt='img1' />
+                            <h1 className='font-serif font-bold text-center text-[20px] max-xl:text-[18px] max-lg:text-[14px] max-md:text-[14px] tracking-wide mt-[30px] max-[450px]:mt-[0px]'>{items.itemName}</h1>
+                            <h2 className='font-serif font-bold text-center text-[25px] max-xl:text-[24px] max-lg:text-[20px] max-md:text-[18px] tracking-wide'>{items.price}</h2>
                         </div>
 
                     ))}

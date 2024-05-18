@@ -1,0 +1,937 @@
+{
+    "categories" : [
+        {
+            "name" : "Beverages",
+            "items" : [
+                {
+                    "itemName" : "Ginger Tea",
+                    "price" : "15/-",
+                    "img" : "menu-images/bav1.png"
+                },
+                {
+                    "itemName" : "Elaichi Tea",
+                    "price" : "15/-",
+                    "img" : "menu-images/bav7.png"
+                },
+                {
+                    "itemName" : "Masala Tea",
+                    "price" : "15/-",
+                    "img" : "menu-images/bav9.png"
+                },
+                {
+                    "itemName" : "Black Tea",
+                    "price" : "15/-",
+                    "img" : "menu-images/bav8.png"
+                },
+                {
+                    "itemName" : "Chocolate Tea",
+                    "price" : "15/-",
+                    "img" : "menu-images/bav4.png"
+                },
+                {
+                    "itemName" : "Green Tea",
+                    "price" : "30/-",
+                    "img" : "menu-images/bav5.png"
+                },
+                {
+                    "itemName" : "Black Coffee",
+                    "price" : "30/-",
+                    "img" : "menu-images/bav3.png"
+                },
+                {
+                    "itemName" : "Hot Coffee",
+                    "price" : "30/-",
+                    "img" : "menu-images/bav6.png"
+                },
+                {
+                    "itemName" : "Cold Coffee",
+                    "price" : "60/-",
+                    "img" : "menu-images/bav11.png"
+                },
+                {
+                    "itemName" : "Frappe",
+                    "price" : "60/-",
+                    "img" : "menu-images/bav10.png"
+                },
+                {
+                    "itemName" : "Cold Coffee with Ice-Cream",
+                    "price" : "80/-",
+                    "img" : "menu-images/bav2.png"
+                }
+            ]
+        },
+        {
+            "name" : "Chinese",
+            "items" : [
+                {
+                    "itemName" : "Veg Noodles",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn1"
+                },
+                {
+                    "itemName" : "Hakka Noodles",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn2"
+                },
+                {
+                    "itemName" : "Schezwan Noodles",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn3"
+                },
+                {
+                    "itemName" : "Punjabi Noodles",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn4"
+                },
+                {
+                    "itemName" : "Paneer Noodles",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn5"
+                },
+                {
+                    "itemName" : "Crispy Noodles",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn6"
+                },
+                {
+                    "itemName" : "Dry Manchurian",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn7"
+                },
+                {
+                    "itemName" : "Gravy Manchurian",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn8"
+                },
+                {
+                    "itemName" : "Manchurian Noodles",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn9"
+                },
+                {
+                    "itemName" : "Veg Fried Rice",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn10"
+                },
+                {
+                    "itemName" : "Schezwan Fried Rice",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn11"
+                },
+                {
+                    "itemName" : "Manchurian Fried Rice",
+                    "price" : "99/-",
+                    "img" : "menu-images/chn12"
+                },
+                {
+                    "itemName" : "Paneer Fried Rice",
+                    "price" : "119/-",
+                    "img" : "menu-images/chn13"
+                },
+                {
+                    "itemName" : "Veg Combi",
+                    "price" : "119/-",
+                    "img" : "menu-images/chn14"
+                },
+                {
+                    "itemName" : "Veg Kothe",
+                    "price" : "119/-",
+                    "img" : "menu-images/chn15"
+                },
+                {
+                    "itemName" : "Chilli Potato",
+                    "price" : "139/-",
+                    "img" : "menu-images/chn16"
+                },
+                {
+                    "itemName" : "Chilli Paneer",
+                    "price" : "139/-",
+                    "img" : "menu-images/chn17"
+                },
+                {
+                    "itemName" : "Crispy Corn",
+                    "price" : "139/-",
+                    "img" : "menu-images/chn18"
+                }
+            ]
+        },
+        {
+            "name" : "South Indian",
+            "items" : [
+                {
+                  "img": "menu-images/Idli Sambhar.png",
+                  "itemName": "Idli Sambhar",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Vada Sambhar.png",
+                  "itemName": "Vada Sambhar",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Idli Vada Mix.png",
+                  "itemName": "Idli Vada Mix",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Fried Idli.png",
+                  "itemName": "Fried Idli",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Plain Dosa.png",
+                  "itemName": "Plain Dosa",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Butter Plain Dosa.png",
+                  "itemName": "Butter Plain Dosa",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Masala Dosa.png",
+                  "itemName": "Masala Dosa",
+                  "price": "99/-"
+                }, 
+                {
+                  "img": "menu-images/Butter Masala Dosa.png",
+                  "itemName": "Butter Masala Dosa",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Schezwan Masala Dosa.png",
+                  "itemName": "Schezwan Masala Dosa",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Paneer Masala Dosa.png",
+                  "itemName": "Paneer Masala Dosa",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Plain Uttapam.png",
+                  "itemName": "Plain Uttapam",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Onion Uttapam.png",
+                  "itemName": "Onion Uttapam",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Tomato Uttapam.png",
+                  "itemName": "Tomato Uttapam",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Veg Uttapam.png",
+                  "itemName": "Veg Uttapam",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Plain Appe.png",
+                  "itemName": "Plain Appe",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Veg Appe.png",
+                  "itemName": "Veg Appe",
+                  "price": "99/-"
+                },
+                {
+                  "img": "menu-images/Veg Corn Appe.png",
+                  "itemName": "Veg Corn Appe",
+                  "price": "99"
+                }
+            
+              ]             
+            
+        },
+        {
+            "name" : "Italian",
+            "items" : [
+                {
+                  "img": "menu-images/Veg Pasta.png",
+                  "itemName": "Veg Pasta (Desi Style)",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Red Sauce Pasta.png",
+                  "itemName": "Red Sauce Pasta",
+                  "price": "120/-"
+                },
+                {
+                  "img": "menu-images/White Sauce Pasta.png",
+                  "itemName": "White Sauce Pasta",
+                  "price": "140/-"
+                },
+                {
+                  "img": "menu-images/Pink Sauce Pasta.png",
+                  "itemName": "Pink Sauce Pasta",
+                  "price": "140/-"
+                },
+                {
+                  "img": "menu-images/Hot Garlic Pasta.png",
+                  "itemName": "Hot Garlic Pasta",
+                  "price": "120/-"
+                },
+                {
+                  "img": "menu-images/Hot Garlic Cheese Pasta.png",
+                  "itemName": "Hot Garlic Cheese Pasta",
+                  "price": "140/-"
+                },
+                {
+                  "img": "menu-images/Cheese Corn Pasta.png",
+                  "itemName": "Cheese Corn Pasta",
+                  "price": "140/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Sandwich",
+            "items" : [
+                {
+                  "img": "menu-images/Bombay Sandwich.png",
+                  "itemName": "Bombay Sandwich",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Veg Sandwich.png",
+                  "itemName": "Veg Sandwich",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Veg Schezwan Sandwich.png",
+                  "itemName": "Veg Schezwan Sandwich",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Veg Cheese Sandwich.png",
+                  "itemName": "Veg Cheese Sandwich",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Cheese Corn Sandwich.png",
+                  "itemName": "Cheese Corn Sandwich",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Paneer Masala Sandwich.png",
+                  "itemName": "Paneer Masala Sandwich",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Paneer Cheese Sandwich.png",
+                  "itemName": "Paneer Cheese Sandwich",
+                  "price": "90/-"
+                },
+                {
+                  "img": "menu-images/Bitty's Special Sandwich.png",
+                  "itemName": "Bitty's Special Sandwich",
+                  "price": "99/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Main Course",
+            "items" : [
+                {
+                  "img": "menu-images/Matar Paneer.png",
+                  "itemName": "Matar Paneer",
+                  "price": "180/-"
+                },
+                {
+                  "img": "menu-images/Kadai Paneer.png",
+                  "itemName": "Kadai Paneer",
+                  "price": "180/-"
+                },
+                {
+                  "img": "menu-images/Butter Paneer.png",
+                  "itemName": "Butter Paneer",
+                  "price": "180/-"
+                },
+                {
+                  "img": "menu-images/Masala Chole.png",
+                  "itemName": "Masala Chole",
+                  "price": "150/-"
+                },
+                {
+                  "img": "menu-images/Mix Veg.png",
+                  "itemName": "Mix Veg",
+                  "price": "150/-"
+                },
+                {
+                  "img": "menu-images/Jeera Aloo.png",
+                  "itemName": "Jeera Aloo",
+                  "price": "120/-"
+                },
+                {
+                  "img": "menu-images/Sev Tamatar.png",
+                  "itemName": "Sev Tamatar",
+                  "price": "120/-"
+                },
+                {
+                  "img": "menu-images/Bhindi Masala.png",
+                  "itemName": "Bhindi Masala",
+                  "price": "120/-"
+                },
+                {
+                  "img": "menu-images/Gobi Masala.png",
+                  "itemName": "Gobi Masala",
+                  "price": "120/-"
+                },
+                {
+                  "img": "menu-images/Dal Fry.png",
+                  "itemName": "Dal Fry",
+                  "price": "100/-"
+                },
+                {
+                  "img": "menu-images/Dal Tadka.png",
+                  "itemName": "Dal Tadka",
+                  "price": "120/-"
+                },
+                {
+                  "img": "menu-images/Boondi Raita.png",
+                  "itemName": "Boondi Raita",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Chole Chawal.png",
+                  "itemName": "Chole Chawal",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Rajma Chawal.png",
+                  "itemName": "Rajma Chawal",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Dal Chawal.png",
+                  "itemName": "Dal Chawal",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Steam Rice.png",
+                  "itemName": "Steam Rice",
+                  "price": "90/-"
+                },
+                {
+                  "img": "menu-images/Jeera Rice.png",
+                  "itemName": "Jeera Rice",
+                  "price": "110/-"
+                },
+                {
+                  "img": "menu-images/Tawa Roti.png",
+                  "itemName": "Tawa Roti",
+                  "price": "07/-"
+                },
+                {
+                  "img": "menu-images/Butter Roti.png",
+                  "itemName": "Butter Roti",
+                  "price": "10/-"
+                },
+                {
+                  "img": "menu-images/Roast Papad.png",
+                  "itemName": "Roast Papad",
+                  "price": "15/-"
+                },
+                {
+                  "img": "menu-images/Fried Papad.png",
+                  "itemName": "Fried Papad",
+                  "price": "20/-"
+                },
+                {
+                  "img": "menu-images/Masala Papad.png",
+                  "itemName": "Masala Papad",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Classic Salad.png",
+                  "itemName": "Classic Salad",
+                  "price": "30/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Combo's",
+            "items" : [
+                {
+                  "img": "menu-images/Aaloo Paratha(2) + Plain Paratha(1) + Sabji.png",
+                  "itemName": "Aaloo Paratha(2) + Plain Paratha(1) + Sabji",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Roti(5) + Dal + Rice + Sabji + Achar + Salad.png",
+                  "itemName": "Roti(5) + Dal + Rice + Sabji + Achar + Salad",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Poori(6) + Sabji + Achar + Salad.png",
+                  "itemName": "Poori(6) + Sabji + Achar + Salad",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Dal + Bati(4) + Bharta + Churma.png",
+                  "itemName": "Dal + Bati(4) + Bharta + Churma",
+                  "price": "100/-"
+                },
+                {
+                  "img": "menu-images/Mausambi Juice + Pineapple Juice + Cold Coffee.png",
+                  "itemName": "Mausambi Juice + Pineapple Juice + Cold Coffee",
+                  "price": "140/-"
+                },
+                {
+                  "img": "menu-images/Aaloo Paratha + Sev Paratha + Paneer Paratha + Cold Coffee.png",
+                  "itemName": "Aaloo Paratha + Sev Paratha + Paneer Paratha + Cold Coffee",
+                  "price": "140/-"
+                },
+                {
+                  "img": "menu-images/Veg Sandwich + French Fries + Cold Cofffee.png",
+                  "itemName": "Veg Sandwich + French Fries + Cold Cofffee",
+                  "price": "169/-"
+                },
+                {
+                  "img": "menu-images/Veg Maggi + Veg Sandwich + Cold Cofffee.png",
+                  "itemName": "Veg Maggi + Veg Sandwich + Cold Cofffee",
+                  "price": "169/-"
+                },
+                {
+                  "img": "menu-images/Idli Sambhar + Vada Sambhar + Masala Dosa + Cold Cofffee.png",
+                  "itemName": "Idli Sambhar + Vada Sambhar + Masala Dosa + Cold Cofffee",
+                  "price": "199/-"
+                },
+                {
+                  "img": "menu-images/Veg Noodles + Dry Manchurian + Cold Cofffee.png",
+                  "itemName": "Veg Noodles + Dry Manchurian + Cold Cofffee",
+                  "price": "199/-"
+                },
+                {
+                  "img": "menu-images/Veg Cheese Maggi + Veg Appe + Cold Cofffee.png",
+                  "itemName": "Veg Cheese Maggi + Veg Appe + Cold Cofffee",
+                  "price": "199/-"
+                },
+                {
+                  "img": "menu-images/Veg Cheese Maggi + Cheese Corn Sandwich + Cold Cofffee.png",
+                  "itemName": "Veg Cheese Maggi + Cheese Corn Sandwich + Cold Cofffee",
+                  "price": "199/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Paratha",
+            "items" : [
+                {
+                  "img": "menu-images/Plain Paratha.png",
+                  "itemName": "Plain Paratha",
+                  "price": "20/-"
+                },
+                {
+                  "img": "menu-images/Aaloo Paratha.png",
+                  "itemName": "Aaloo Paratha",
+                  "price": "25/-"
+                },
+                {
+                  "img": "menu-images/Plain Cheese Paratha.png",
+                  "itemName": "Plain Cheese Paratha",
+                  "price": "40/-"
+                },
+                {
+                  "img": "menu-images/Aaloo Cheese Paratha.png",
+                  "itemName": "Aaloo Cheese Paratha",
+                  "price": "40/-"
+                },
+                {
+                  "img": "menu-images/Onion Paratha.png",
+                  "itemName": "Onion Paratha",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Gobi Paratha.png",
+                  "itemName": "Gobi Paratha",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Sev Paratha.png",
+                  "itemName": "Sev Paratha",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Paneer Paratha.png",
+                  "itemName": "Paneer Paratha",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Paneer Cheese Paratha.png",
+                  "itemName": "Paneer Cheese Paratha",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Mix Paratha.png",
+                  "itemName": "Mix Paratha",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Mix Cheese Paratha.png",
+                  "itemName": "Mix Cheese Paratha",
+                  "price": "80/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Juices",
+            "items" : [
+                {
+                  "img": "menu-images/Orange Juice.png",
+                  "itemName": "Orange Juice",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Mosambi Juice.png",
+                  "itemName": "Mosambi Juice",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Pineapple Juice.png",
+                  "itemName": "Pineapple Juice",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Watermelon Juice.png",
+                  "itemName": "Watermelon Juice",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Grapes Juice.png",
+                  "itemName": "Grapes Juice",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Apple Juice.png",
+                  "itemName": "Apple Juice",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Anar Juice.png",
+                  "itemName": "Anar Juice",
+                  "price": "80/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Other Offerings",
+            "items" : [
+                {
+                  "img": "menu-images/Khamand.png",
+                  "itemName": "Khamand",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Bhel Puri.png",
+                  "itemName": "Bhel Puri",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Dahi Vada.png",
+                  "itemName": "Dahi Vada",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Pav Bhaji.png",
+                  "itemName": "Pav Bhaji",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Chole Bhature.png",
+                  "itemName": "Chole Bhature",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Chole Kulche.png",
+                  "itemName": "Chole Kulche",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Paneer Kulche.png",
+                  "itemName": "Paneer Kulche",
+                  "price": "100/-"
+                },
+                {
+                  "img": "menu-images/French Fries.png",
+                  "itemName": "French Fries",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Peri Peri Fries.png",
+                  "itemName": "Peri Peri Fries",
+                  "price": "90/-"
+                },
+                {
+                  "img": "menu-images/Butter Khichdi.png",
+                  "itemName": "Butter Khichdi",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Veg Pulao.png",
+                  "itemName": "Veg Pulao",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Corn Chat.png",
+                  "itemName": "Corn Chat",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Kheer.png",
+                  "itemName": "Kheer",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Rasgulla.png",
+                  "itemName": "Rasgulla(2 Pieces)",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Gulab Jamun.png",
+                  "itemName": "Gulab Jamun(2 pieces)",
+                  "price": "30/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Iced Tea",
+            "items" : [
+                {
+                  "img": "menu-images/Lemon Iced Tea.png",
+                  "itemName": "Lemon Iced Tea",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Litchi Iced Tea.png",
+                  "itemName": "Litchi Iced Tea",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Blueberry Iced Tea.png",
+                  "itemName": "Blueberry Iced Tea",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Orange Iced Tea.png",
+                  "itemName": "Orange Iced Tea",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Watermelon Iced Tea.png",
+                  "itemName": "Watermelon Iced Tea",
+                  "price": "60/-"
+                }
+              ]
+              
+        },
+        {
+            "name": "Maggi",
+            "items" : [
+                {
+                  "img": "menu-images/Plain Maggi.png",
+                  "itemName": "Plain Maggi",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Masala Maggi.png",
+                  "itemName": "Masala Maggi",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Plain Cheese Maggi.png",
+                  "itemName": "Plain Cheese Maggi",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Double Masala Maggi.png",
+                  "itemName": "Double Masala Maggi",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Vegetable Maggi.png",
+                  "itemName": "Vegetable Maggi",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Schezwan Maggi.png",
+                  "itemName": "Schezwan Maggi",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Veg Cheese Maggi.png",
+                  "itemName": "Veg Cheese Maggi",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Cheese Corn Maggi.png",
+                  "itemName": "Cheese Corn Maggi",
+                  "price": "90/-"
+                },
+                {
+                  "img": "menu-images/Butter Masala Maggi.png",
+                  "itemName": "Butter Masala Maggi",
+                  "price": "90/-"
+                },
+                {
+                  "img": "menu-images/Bitty's Special Maggi.png",
+                  "itemName": "Bitty's Special Maggi",
+                  "price": "100/-"
+                }
+              ]
+        }, 
+        {
+            "name" : "Momos",
+            "items" : [
+                {
+                  "img": "menu-images/Veg Steam.png",
+                  "itemName": "Veg Steam",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Veg Fried.png",
+                  "itemName": "Veg Fried",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Paneer Steam.png",
+                  "itemName": "Paneer Steam",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Paneer Fried.png",
+                  "itemName": "Paneer Fried",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Cheese Fried.png",
+                  "itemName": "Cheese Fried",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Cheese Corn Steam.png",
+                  "itemName": "Cheese Corn Steam",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Cheese Corn Fried.png",
+                  "itemName": "Cheese Corn Fried",
+                  "price": "80/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Shakes",
+            "items" : [
+                {
+                  "img": "menu-images/Banana Shake.png",
+                  "itemName": "Banana Shake",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Mango Shake.png",
+                  "itemName": "Mango Shake",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Chikoo Shake.png",
+                  "itemName": "Chikoo Shake",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Oreo Shake.png",
+                  "itemName": "Oreo Shake",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Kitkat Shake.png",
+                  "itemName": "Kitkat Shake",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Strawberry Shake.png",
+                  "itemName": "Strawberry Shake",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Blueberry Shake.png",
+                  "itemName": "Blueberry Shake",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Chocolate Shake.png",
+                  "itemName": "Chocolate Shake",
+                  "price": "80/-"
+                },
+                {
+                  "img": "menu-images/Belgian Chocolate.png",
+                  "itemName": "Belgian Chocolate",
+                  "price": "99/-"
+                }
+              ]
+              
+        },
+        {
+            "name" : "Soups / Drinks",
+            "items" : [
+                {
+                  "img": "menu-images/Manchow Soup.png",
+                  "itemName": "Manchow Soup",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Hot N Sour Soup.png",
+                  "itemName": "Hot N Sour Soup",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Tomato Soup.png",
+                  "itemName": "Tomato Soup",
+                  "price": "50/-"
+                },
+                {
+                  "img": "menu-images/Vegetable Soup.png",
+                  "itemName": "Vegetable Soup",
+                  "price": "60/-"
+                },
+                {
+                  "img": "menu-images/Sweet Corn Soup.png",
+                  "itemName": "Sweet Corn Soup",
+                  "price": "70/-"
+                },
+                {
+                  "img": "menu-images/Milk.png",
+                  "itemName": "Milk",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Nimbu Pani.png",
+                  "itemName": "Nimbu Pani",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Chaanch.png",
+                  "itemName": "Chaanch",
+                  "price": "30/-"
+                },
+                {
+                  "img": "menu-images/Lassi.png",
+                  "itemName": "Lassi",
+                  "price": "40/-"
+                }
+              ]
+              
+        }
+    ]
+}
