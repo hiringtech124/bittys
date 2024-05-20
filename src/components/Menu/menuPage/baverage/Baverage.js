@@ -20,7 +20,6 @@ function Baverage() {
               <h1 className='font-serif font-bold text-center text-[20px] max-xl:text-[18px] max-lg:text-[14px] max-md:text-[14px] tracking-wide mt-[30px] max-[450px]:mt-[0px]'>{items.itemName}</h1>
               <h2 className='font-serif font-bold text-center text-[25px] max-xl:text-[24px] max-lg:text-[20px] max-md:text-[18px] tracking-wide'>{items.price}</h2>
             </div>
-
           ))}
         </div>
       </div>
