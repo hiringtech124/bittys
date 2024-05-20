@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState , useEffect } from "react";
 import menuData from "../../menu.json";
+import Image from 'next/image';
 
 import './css/cafeher.css'
 
@@ -84,7 +85,7 @@ const Cafeher = () => {
               <span className="close" onClick={closePopup}>
                 &times;
               </span>
-              <img src={selectedItem.img}  alt={selectedItem.item} />
+              <Image src={selectedItem.img}  alt={selectedItem.item} />
               <h2 className='text-[32px] max-lg:text-[28px] max-md:text-[22px] max-sm:text-[14px] font-serif font-bold w-[400px] max-lg:w-[200px] max-sm:w-[140px]  pb-[20px] max-sm:pb-[5px]'>{selectedItem.itemName}</h2>
               <p className='text-[26px] max-md:text-[22px] max-sm:text-[18px] font-serif font-semibold'>{selectedItem.price}</p>
             </div>

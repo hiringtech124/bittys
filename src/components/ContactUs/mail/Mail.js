@@ -48,8 +48,8 @@ function Mail() {
                     <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex'> <FaLocationDot className='text-[40px] max-md:text-[25px] ' />Plot No 123, Scheme no 78 Part 2 in<br />
                         Front of Hotel Grand Ten Vijay Nagar,<br />
                         Indore, MP, District - Indore 445533</p>
-                    <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex'> <MdMail className='text-[40px] max-md:text-[25px]' />@gmail.com</p>
-                    <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex'><FaPhoneSquareAlt className='text-[40px] max-md:text-[25px]' />+91 91794 44179</p>
+                    <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex'> <MdMail className='text-[40px] max-md:text-[25px]' />business@bittyscafe.com</p>
+                    <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex tracking-tighter'><FaPhoneSquareAlt className='text-[40px] max-md:text-[25px] ' />+91 91794 44179 ,+91 96697 40666</p>
                     <div className='flex gap-[50px] max-xl:gap-[30px] max-md:gap-[20px]'>
                         <Link href="https://www.instagram.com/bittys_foodmohalla/"><FaSquareInstagram className='text-[40px] max-md:text-[25px]' /></Link>
                         <FaFacebook className='text-[40px] max-md:text-[25px]' />
