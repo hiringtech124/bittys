@@ -69,7 +69,7 @@ const Cafeher = () => {
               {filteredItems.map((item, index) => (
                 <div
                   key={index}
-                  className="dropdown-item max-sm:p-[5px] p-[10px] w-[600px] max-xl:w-[500px] max-md:w-[400px] max-sm:w-[150px] text-[20px] max-md:text-[16px] max-sm:text-[10px] font-serif flex justify-center rounded-xl"
+                  className="dropdown-item cursor-pointer max-sm:p-[5px] p-[10px] w-[600px] max-xl:w-[500px] max-md:w-[400px] max-sm:w-[150px] text-[20px] max-md:text-[16px] max-sm:text-[10px] font-serif flex justify-center rounded-xl"
                   onClick={() => handleSelectItem(item)}
                 >
                   {item.itemName}

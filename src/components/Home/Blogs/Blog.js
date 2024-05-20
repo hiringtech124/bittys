@@ -35,7 +35,7 @@ function Blog() {
                     <div className='bg-[#fff] w-[320px] h-[420px] max-lg:w-[240px] max-lg:h-[350px] flex flex-col items-center rounded-lg'>
                         <Image src={blog3} className='p-5' alt='Blog Post 3' />
                         <div className='flex flex-col items-center'>
-                            <h1 className='font-serif font-bold text-[32px] max-xl:text-[26px] max-lg:text-[22px] max-md:text-[22px]'>Spoonfuls of Sunshine</h1>
+                            <h1 className='font-serif font-bold text-[32px] max-xl:text-[26px] max-lg:text-[22px] max-md:text-[22px]'>Bite-sized Bliss</h1>
                             <p className='w-[300px] max-lg:text-[13px] max-md:text-[12px] max-lg:w-[220px] max-md:w-[200px] text-center'>Brightening Your Day, One Recipe at a Time</p>
                             <a className='text-[red] text-[20px] font-bold pt-3 max-md:text-[18px]'>Read Blog</a>
                         </div>
