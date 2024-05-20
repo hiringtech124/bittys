@@ -66,92 +66,92 @@
                 {
                     "itemName" : "Veg Noodles",
                     "price" : "99/-",
-                    "img" : "menu-images/chn1"
+                    "img" : "menu-images/chn1.png"
                 },
                 {
                     "itemName" : "Hakka Noodles",
                     "price" : "99/-",
-                    "img" : "menu-images/chn2"
+                    "img" : "menu-images/chn2.png"
                 },
                 {
                     "itemName" : "Schezwan Noodles",
                     "price" : "99/-",
-                    "img" : "menu-images/chn3"
+                    "img" : "menu-images/chn3.png"
                 },
                 {
                     "itemName" : "Punjabi Noodles",
                     "price" : "99/-",
-                    "img" : "menu-images/chn4"
+                    "img" : "menu-images/chn4.png"
                 },
                 {
                     "itemName" : "Paneer Noodles",
                     "price" : "99/-",
-                    "img" : "menu-images/chn5"
+                    "img" : "menu-images/chn5.png"
                 },
                 {
                     "itemName" : "Crispy Noodles",
                     "price" : "99/-",
-                    "img" : "menu-images/chn6"
+                    "img" : "menu-images/chn6.png"
                 },
                 {
                     "itemName" : "Dry Manchurian",
                     "price" : "99/-",
-                    "img" : "menu-images/chn7"
+                    "img" : "menu-images/chn7.png"
                 },
                 {
                     "itemName" : "Gravy Manchurian",
                     "price" : "99/-",
-                    "img" : "menu-images/chn8"
+                    "img" : "menu-images/chn8.png"
                 },
                 {
                     "itemName" : "Manchurian Noodles",
                     "price" : "99/-",
-                    "img" : "menu-images/chn9"
+                    "img" : "menu-images/chn9.png"
                 },
                 {
                     "itemName" : "Veg Fried Rice",
                     "price" : "99/-",
-                    "img" : "menu-images/chn10"
+                    "img" : "menu-images/chn10.png"
                 },
                 {
                     "itemName" : "Schezwan Fried Rice",
                     "price" : "99/-",
-                    "img" : "menu-images/chn11"
+                    "img" : "menu-images/chn11.png"
                 },
                 {
                     "itemName" : "Manchurian Fried Rice",
                     "price" : "99/-",
-                    "img" : "menu-images/chn12"
+                    "img" : "menu-images/chn12.png"
                 },
                 {
                     "itemName" : "Paneer Fried Rice",
                     "price" : "119/-",
-                    "img" : "menu-images/chn13"
+                    "img" : "menu-images/chn13.png"
                 },
                 {
                     "itemName" : "Veg Combi",
                     "price" : "119/-",
-                    "img" : "menu-images/chn14"
+                    "img" : "menu-images/chn14.png"
                 },
                 {
                     "itemName" : "Veg Kothe",
                     "price" : "119/-",
-                    "img" : "menu-images/chn15"
+                    "img" : "menu-images/chn15.png"
                 },
                 {
                     "itemName" : "Chilli Potato",
                     "price" : "139/-",
-                    "img" : "menu-images/chn16"
+                    "img" : "menu-images/chn16.png"
                 },
                 {
                     "itemName" : "Chilli Paneer",
                     "price" : "139/-",
-                    "img" : "menu-images/chn17"
+                    "img" : "menu-images/chn17.png"
                 },
                 {
                     "itemName" : "Crispy Corn",
                     "price" : "139/-",
-                    "img" : "menu-images/chn18"
+                    "img" : "menu-images/chn18.png"
                 }
             ]
         },
