@@ -138,7 +138,7 @@ const Menu = () => {
         <p className='text-[24px] w-[60%] max-md:w-[80%] text-center max-xl:text-[20px] max-lg:text-[16px] max-md:text-[14px] mb-[30px] mt-[30px] max-xl:mt-[15px]'>&quot;Indulge in our delectable menu, crafted with care and passion.&quot;</p>
         <div className="flex h-full justify-center gap-x-[100px] max-xl:gap-x-[50px] max-lg:gap-x-[0px] max-md:gap-x-[0px] max-[450px]:gap-x-[0px] w-full">
 
-          <div className="grid grid-cols-1 gap-y-[10px] mt-[95px] max-[450px]:mt-[50px] max-md:mt-[60px] h-[600px] overflow-scroll  px-10 max-[450px]:px-[0px] pb-[50px]">
+          <div className="grid grid-cols-1 gap-y-[10px] mt-[150px] max-[450px]:mt-[100px] max-md:mt-[60px] h-[600px] overflow-scroll  px-10 max-[450px]:px-[0px] pb-[50px]">
             {tabs.map((tab, index) => (
               <div
                 key={index}

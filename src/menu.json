@@ -459,62 +459,62 @@
             "name" : "Combo's",
             "items" : [
                 {
-                  "img": "menu-images/Aaloo Paratha(2) + Plain Paratha(1) + Sabji.png",
+                  "img": "menu-images/Combo1.png",
                   "itemName": "Aaloo Paratha(2) + Plain Paratha(1) + Sabji",
                   "price": "60/-"
                 },
                 {
-                  "img": "menu-images/Roti(5) + Dal + Rice + Sabji + Achar + Salad.png",
+                  "img": "menu-images/Combo2.png",
                   "itemName": "Roti(5) + Dal + Rice + Sabji + Achar + Salad",
                   "price": "70/-"
                 },
                 {
-                  "img": "menu-images/Poori(6) + Sabji + Achar + Salad.png",
+                  "img": "menu-images/Combo3.png",
                   "itemName": "Poori(6) + Sabji + Achar + Salad",
                   "price": "70/-"
                 },
                 {
-                  "img": "menu-images/Dal + Bati(4) + Bharta + Churma.png",
+                  "img": "menu-images/Combo4.png",
                   "itemName": "Dal + Bati(4) + Bharta + Churma",
                   "price": "100/-"
                 },
                 {
-                  "img": "menu-images/Mausambi Juice + Pineapple Juice + Cold Coffee.png",
+                  "img": "menu-images/Combo5.png",
                   "itemName": "Mausambi Juice + Pineapple Juice + Cold Coffee",
                   "price": "140/-"
                 },
                 {
-                  "img": "menu-images/Aaloo Paratha + Sev Paratha + Paneer Paratha + Cold Coffee.png",
+                  "img": "menu-images/Combo6.png",
                   "itemName": "Aaloo Paratha + Sev Paratha + Paneer Paratha + Cold Coffee",
                   "price": "140/-"
                 },
                 {
-                  "img": "menu-images/Veg Sandwich + French Fries + Cold Cofffee.png",
+                  "img": "menu-images/Combo7.png",
                   "itemName": "Veg Sandwich + French Fries + Cold Cofffee",
                   "price": "169/-"
                 },
                 {
-                  "img": "menu-images/Veg Maggi + Veg Sandwich + Cold Cofffee.png",
+                  "img": "menu-images/Combo8.png",
                   "itemName": "Veg Maggi + Veg Sandwich + Cold Cofffee",
                   "price": "169/-"
                 },
                 {
-                  "img": "menu-images/Idli Sambhar + Vada Sambhar + Masala Dosa + Cold Cofffee.png",
+                  "img": "menu-images/Combo9.png",
                   "itemName": "Idli Sambhar + Vada Sambhar + Masala Dosa + Cold Cofffee",
                   "price": "199/-"
                 },
                 {
-                  "img": "menu-images/Veg Noodles + Dry Manchurian + Cold Cofffee.png",
+                  "img": "menu-images/Combo10.png",
                   "itemName": "Veg Noodles + Dry Manchurian + Cold Cofffee",
                   "price": "199/-"
                 },
                 {
-                  "img": "menu-images/Veg Cheese Maggi + Veg Appe + Cold Cofffee.png",
+                  "img": "menu-images/Combo11.png",
                   "itemName": "Veg Cheese Maggi + Veg Appe + Cold Cofffee",
                   "price": "199/-"
                 },
                 {
-                  "img": "menu-images/Veg Cheese Maggi + Cheese Corn Sandwich + Cold Cofffee.png",
+                  "img": "menu-images/Combo12.png",
                   "itemName": "Veg Cheese Maggi + Cheese Corn Sandwich + Cold Cofffee",
                   "price": "199/-"
                 }
