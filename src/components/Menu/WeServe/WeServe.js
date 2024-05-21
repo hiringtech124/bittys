@@ -10,7 +10,7 @@ import seven from "./assets/coffee.png"
 function WeServe() {
   return (
     <>
-      <div className='bg-[#F5F9D6] w-full h-full'>
+      <div className='bg-[#F5F9D6] w-full h-full pt-[40px]'>
         <div className='flex flex-col items-center'>
           <h1 className='text-[64px] font-bold text-[#4D3029] font-serif max-xl:text-[54px] max-lg:text-[44px] max-md:text-[35px] max-sm:text-[30px]'>We Serve</h1>
           <p className='text-[20px] max-xl:text-[17px] max-lg:text-[16px] max-md:text-[14px] max-sm:text-[12px] text-center text-[#1E1E1E] w-[800px] max-lg:w-[600px] max-md:w-[400px] max-sm:w-[300px]'> We serve a variety of refreshments, snacks and delicacies to satisfy your taste buds and make sure you get the best experience with us</p>
