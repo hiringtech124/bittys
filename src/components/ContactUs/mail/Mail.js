@@ -5,8 +5,6 @@ import { MdMail } from "react-icons/md";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { FaPinterest } from "react-icons/fa";
 import { useState } from 'react';
 import Link from 'next/link';
 function Mail() {
@@ -51,10 +49,9 @@ function Mail() {
                     <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex'> <MdMail className='text-[40px] max-md:text-[25px]' />business@bittyscafe.com</p>
                     <p className='text-[20px] max-xl:text-[16px] items-center max-lg:text-[12px] gap-3 flex tracking-tighter'><FaPhoneSquareAlt className='text-[40px] max-md:text-[25px] ' />+91 91794 44179 ,+91 96697 40666</p>
                     <div className='flex gap-[50px] max-xl:gap-[30px] max-md:gap-[20px]'>
-                        <Link href="https://www.instagram.com/bittys_foodmohalla/"><FaSquareInstagram className='text-[40px] max-md:text-[25px]' /></Link>
-                        <FaFacebook className='text-[40px] max-md:text-[25px]' />
-                        <AiFillTwitterCircle className='text-[40px] max-md:text-[25px]' />
-                        <FaPinterest className='text-[40px] max-md:text-[25px]' />
+                        <Link target="_blank" href="https://www.instagram.com/bittys_foodmohalla/"><FaSquareInstagram className='text-[40px] max-md:text-[25px]' /></Link>
+                        <Link target="_blank" href="https://www.facebook.com/people/Bittys-Cafe/61559943420942/?viewas&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"><FaFacebook className='text-[40px] max-md:text-[25px]' /></Link>
+                        
                     </div>
                 </div>
                 <div className='w-[600px] max-xl:w-[450px] max-lg:w-[350px] max-md:w-[250px] flex flex-col max-sm:items-center gap-5'>
