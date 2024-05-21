@@ -1,11 +1,9 @@
-
 "use client"
 import React from 'react'
 import { useState, useEffect } from "react";
 import { useRouter } from 'next/navigation';
 import menuData from "../../menu.json";
 import './css/cafeher.css'
-
 
 const Cafeher = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -41,13 +39,26 @@ const Cafeher = () => {
     setFilteredItems(filtered);
   };
 
-  const handleSelectItem = item => {  
+  const handleSelectItem = (item) => {
     setFilteredItems([]);
     setSearchTerm("");
-    router.push("/Menu") 
-  };
 
- 
+    // Find the category name of the selected item
+    const category = menuData.categories.find(category => 
+      category.items.some(menuItem => menuItem.itemName === item.itemName)
+    );
+
+    
+   
+    const categoryName = category.name;
+
+
+    // Navigate to the menu page with the selected item's details and category name
+    // router.push(`/Menu?value=${encodeURIComponent(categoryName)}`);
+    router.push("/Menu")
+   
+   
+  };
 
   return (
     <>
@@ -87,4 +98,5 @@ const Cafeher = () => {
 }
 
 export default Cafeher
+
 
